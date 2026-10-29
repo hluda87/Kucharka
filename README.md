@@ -1,4 +1,4 @@
-# Moje kuchařka (MVP)
+# Naše Kuchařka (MVP)
 
 Statická webová aplikace (GitHub Pages + PWA) - funguje online i offline po prvním načtení.
 Žádný server, data jsou v `recepty.json`.

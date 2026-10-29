@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moje kuchařka</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#b3541e">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🍳 Moje kuchařka</h1>
+  <div class="actions">
+    <button id="btn-add" type="button">+ Nový recept</button>
+    <button id="btn-export" type="button">Export změn</button>
+    <label class="file-btn">Import<input id="file-import" type="file" accept=".json,application/json" hidden></label>
+    <button id="btn-reset" type="button">Zrušit lokální úpravy</button>
+  </div>
+</header>
+
+<section class="filters">
+  <input id="search" type="search" placeholder="Hledat recept…">
+  <div id="course-filters" class="chips"></div>
+  <div class="row">
+    <label>Režim surovin:
+      <select id="ingredient-mode">
+        <option value="contains">Obsahuje vybrané (všechny)</option>
+        <option value="home">Mám doma (chybí max 2)</option>
+      </select>
+    </label>
+    <input id="ingredient-search" type="search" placeholder="Hledat surovinu…">
+  </div>
+  <div id="ingredient-filters" class="ingredients"></div>
+  <p id="count" class="count"></p>
+</section>
+
+<main id="list" class="grid"></main>
+
+<dialog id="detail">
+  <div id="detail-content"></div>
+  <div class="dialog-actions">
+    <button id="detail-edit" type="button">Upravit recept</button>
+    <button id="detail-close" type="button">Zavřít</button>
+  </div>
+</dialog>
+
+<dialog id="editor">
+  <form id="editor-form" method="dialog">
+    <h2 id="editor-title">Upravit recept</h2>
+    <label>Název <input name="title" required></label>
+    <label>Zdroj (URL) <input name="source_url" type="url" placeholder="https://…"></label>
+    <label>Fotka (URL) <input name="image" type="url" placeholder="https://…"></label>
+    <div class="row">
+      <label>Základní porce <input name="base_servings" type="number" min="1" step="1" required></label>
+      <label>Čas (min) <input name="time_minutes" type="number" min="0" step="1"></label>
+    </div>
+    <fieldset><legend>Chod</legend><div id="editor-courses" class="chips"></div></fieldset>
+    <h3>Suroviny</h3>
+    <div id="editor-ingredients"></div>
+    <button type="button" id="add-ingredient">+ Přidat surovinu</button>
+    <label>Postup (každý krok na nový řádek)<textarea name="steps" rows="7"></textarea></label>
+    <label>Poznámka<textarea name="notes" rows="2"></textarea></label>
+    <div class="dialog-actions">
+      <button type="submit" id="editor-save">Uložit</button>
+      <button type="button" id="editor-cancel">Zrušit</button>
+    </div>
+    <p class="hint">Úpravy se ukládají jen v tomto zařízení. Pro trvalé zveřejnění použij Export změn a pošli mi stažený soubor.</p>
+  </form>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

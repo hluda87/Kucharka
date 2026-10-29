@@ -1,0 +1,372 @@
+[
+  {
+    "base_servings": 4,
+    "courses": [
+      "Hlavní chod"
+    ],
+    "id": "kureci-na-smetane",
+    "image": "",
+    "ingredients": [
+      {
+        "amount": 600,
+        "name": "kuřecí prsa",
+        "normalized": "kuře",
+        "note": "",
+        "scalable": true,
+        "unit": "g"
+      },
+      {
+        "amount": 200,
+        "name": "smetana ke šlehání",
+        "normalized": "smetana",
+        "note": "",
+        "scalable": true,
+        "unit": "ml"
+      },
+      {
+        "amount": 1,
+        "name": "cibule",
+        "normalized": "cibule",
+        "note": "najemno",
+        "scalable": true,
+        "unit": "ks"
+      },
+      {
+        "amount": 2,
+        "name": "olej",
+        "normalized": "olej",
+        "note": "",
+        "scalable": true,
+        "unit": "lžíce"
+      },
+      {
+        "amount": 1,
+        "name": "sladká paprika",
+        "normalized": "paprika mletá",
+        "note": "",
+        "scalable": true,
+        "unit": "lžička"
+      },
+      {
+        "amount": null,
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "dle chuti",
+        "scalable": false,
+        "unit": ""
+      },
+      {
+        "amount": 400,
+        "name": "rýže",
+        "normalized": "rýže",
+        "note": "příloha",
+        "scalable": true,
+        "unit": "g"
+      }
+    ],
+    "notes": "",
+    "source_url": "",
+    "steps": [
+      "Cibuli osmahněte na oleji dozlatova.",
+      "Přidejte na kostky nakrájená kuřecí prsa, osolte, přidejte papriku a restujte 5 minut.",
+      "Podlijte trochou vody a duste 10 minut.",
+      "Vlijte smetanu, krátce povařte a dochuťte.",
+      "Podávejte s uvařenou rýží."
+    ],
+    "time_minutes": 35,
+    "title": "Kuřecí prsa na smetaně"
+  },
+  {
+    "base_servings": 4,
+    "courses": [
+      "Polévka"
+    ],
+    "id": "bramboracka",
+    "image": "",
+    "ingredients": [
+      {
+        "amount": 500,
+        "name": "brambory",
+        "normalized": "brambory",
+        "note": "na kostky",
+        "scalable": true,
+        "unit": "g"
+      },
+      {
+        "amount": 1,
+        "name": "mrkev",
+        "normalized": "mrkev",
+        "note": "",
+        "scalable": true,
+        "unit": "ks"
+      },
+      {
+        "amount": 1,
+        "name": "cibule",
+        "normalized": "cibule",
+        "note": "",
+        "scalable": true,
+        "unit": "ks"
+      },
+      {
+        "amount": 2,
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "",
+        "scalable": true,
+        "unit": "stroužek"
+      },
+      {
+        "amount": 100,
+        "name": "sušené houby",
+        "normalized": "houby",
+        "note": "nebo čerstvé",
+        "scalable": true,
+        "unit": "g"
+      },
+      {
+        "amount": 30,
+        "name": "hladká mouka",
+        "normalized": "mouka",
+        "note": "na jíšku",
+        "scalable": true,
+        "unit": "g"
+      },
+      {
+        "amount": 1200,
+        "name": "voda / vývar",
+        "normalized": "vývar",
+        "note": "",
+        "scalable": true,
+        "unit": "ml"
+      },
+      {
+        "amount": null,
+        "name": "majoránka",
+        "normalized": "majoránka",
+        "note": "dle chuti",
+        "scalable": false,
+        "unit": ""
+      }
+    ],
+    "notes": "",
+    "source_url": "",
+    "steps": [
+      "Houby namočte na 20 minut do vody.",
+      "Na tuku osmahněte cibuli, zaprašte moukou a udělejte jíšku.",
+      "Zalijte vývarem, přidejte brambory, mrkev a houby.",
+      "Vařte asi 25 minut doměkka.",
+      "Na závěr přidejte prolisovaný česnek a majoránku."
+    ],
+    "time_minutes": 45,
+    "title": "Bramboračka"
+  },
+  {
+    "base_servings": 4,
+    "courses": [
+      "Dezert",
+      "Snídaně"
+    ],
+    "id": "palacinky",
+    "image": "",
+    "ingredients": [
+      {
+        "amount": 250,
+        "name": "hladká mouka",
+        "normalized": "mouka",
+        "note": "",
+        "scalable": true,
+        "unit": "g"
+      },
+      {
+        "amount": 500,
+        "name": "mléko",
+        "normalized": "mléko",
+        "note": "",
+        "scalable": true,
+        "unit": "ml"
+      },
+      {
+        "amount": 2,
+        "name": "vejce",
+        "normalized": "vejce",
+        "note": "",
+        "scalable": true,
+        "unit": "ks"
+      },
+      {
+        "amount": 1,
+        "name": "cukr",
+        "normalized": "cukr",
+        "note": "",
+        "scalable": true,
+        "unit": "lžíce"
+      },
+      {
+        "amount": null,
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "špetka",
+        "scalable": false,
+        "unit": ""
+      },
+      {
+        "amount": 2,
+        "name": "olej",
+        "normalized": "olej",
+        "note": "na smažení",
+        "scalable": true,
+        "unit": "lžíce"
+      }
+    ],
+    "notes": "",
+    "source_url": "",
+    "steps": [
+      "Mouku, mléko, vejce, cukr a špetku soli vyšlehejte do hladkého těsta.",
+      "Nechte 10 minut odpočinout.",
+      "Smažte tenké palačinky na lehce vymazané pánvi z obou stran dozlatova.",
+      "Plňte podle chuti marmeládou, tvarohem nebo ovocem."
+    ],
+    "time_minutes": 25,
+    "title": "Palačinky"
+  },
+  {
+    "id": "gobova-juha-slovinska-houbova-polevka-z-hribku",
+    "title": "Gobova juha – slovinská houbová polévka z hříbků",
+    "source_url": "https://fresh.iprima.cz/gobova-juha-polevka-z-hribku",
+    "image": "https://cdn.administrace.tv/2022/08/06/small_169/4d6b906aa315763025d4949e2408218e.jpg",
+    "courses": [
+      "Polévka"
+    ],
+    "base_servings": 6,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "amount": null,
+        "unit": "",
+        "name": "máslo",
+        "normalized": "máslo",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": 1.0,
+        "unit": "ks",
+        "name": "cibule",
+        "normalized": "cibule",
+        "note": "střední",
+        "scalable": true
+      },
+      {
+        "amount": 2.0,
+        "unit": "stroužek",
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "lžička",
+        "name": "mletá sladká paprika",
+        "normalized": "paprika mletá",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "lžička",
+        "name": "paprika",
+        "normalized": "paprika mletá",
+        "note": "mletá pálivá paprika",
+        "scalable": true
+      },
+      {
+        "amount": 5.0,
+        "unit": "ks",
+        "name": "hřiby",
+        "normalized": "houby",
+        "note": "hřib smrkový pravák, středně velký",
+        "scalable": true
+      },
+      {
+        "amount": 2.0,
+        "unit": "ks",
+        "name": "mrkev",
+        "normalized": "mrkev",
+        "note": "menší",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "ks",
+        "name": "brambory",
+        "normalized": "brambory",
+        "note": "velká",
+        "scalable": true
+      },
+      {
+        "amount": 1.5,
+        "unit": "l",
+        "name": "voda",
+        "normalized": "voda",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pepř",
+        "normalized": "pepř",
+        "note": "čerstvě namletý",
+        "scalable": false
+      },
+      {
+        "amount": 1.0,
+        "unit": "snítka",
+        "name": "libeček",
+        "normalized": "libeček",
+        "note": "čerstvý",
+        "scalable": true
+      },
+      {
+        "amount": 2.0,
+        "unit": "snítka",
+        "name": "hladkolistá petržel",
+        "normalized": "petržel",
+        "note": "čerstvá",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "kelímek",
+        "name": "smetana ke šlehání",
+        "normalized": "smetana",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "lžíce",
+        "name": "hladká mouka",
+        "normalized": "mouka",
+        "note": "vrchovatá",
+        "scalable": true
+      }
+    ],
+    "steps": [
+      "Ve velkém hrnci rozpusťte máslo a vsypte na něj najemno nakrájenou cibuli a tenké plátky česneku. Chvíli restujte, aby cibule lehce zesklovatěla, poté zmírněte oheň a zasypte oběma mletými paprikami a za stálého míchání nechte chvíli restovat, ale pozor, paprika se nesmí připálit, jinak by zhořkla.",
+      "Zalijte 2 dl vody, promíchejte a vsypte na kousky nakrájené houby, přikryjte pokličkou a nechte 2–3 minuty dusit. Poté do hrnce vsypte na kostky nakrájené brambory, na kolečka nakrájené mrkve a vše zalijte horkou vodou. Zelenina i houby by měly být ponořené.",
+      "Čerstvé bylinky nasekejte najemno a polovinu vhoďte do polévky. Dále ji dochuťte solí a pepřem a přikryté vařte 10 minut. Mezitím do šlehačky vmíchejte hladkou mouku. Po uplynutí deseti minut do polévky vmíchejte připravenou šlehačku a vařte za občasného míchání dalších 10 minut. Před servírováním případně dochuťte a zasypte zbylými bylinkami."
+    ],
+    "notes": ""
+  }
+]

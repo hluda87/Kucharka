@@ -11,11 +11,14 @@
 <body>
 <header>
   <h1>🍳 Moje kuchařka</h1>
-  <div class="actions">
-    <button id="btn-add" type="button">+ Nový recept</button>
-    <button id="btn-export" type="button">Export změn</button>
-    <label class="file-btn">Import<input id="file-import" type="file" accept=".json,application/json" hidden></label>
-    <button id="btn-reset" type="button">Zrušit lokální úpravy</button>
+  <div class="menu-wrap">
+    <button id="menu-btn" type="button" aria-label="Menu úprav" aria-haspopup="true"><span></span><span></span><span></span></button>
+    <div id="menu" class="menu" hidden>
+      <button id="btn-add" type="button">+ Nový recept</button>
+      <button id="btn-export" type="button">Export změn</button>
+      <label class="file-btn">Import<input id="file-import" type="file" accept=".json,application/json" hidden></label>
+      <button id="btn-reset" type="button">Zrušit lokální úpravy</button>
+    </div>
   </div>
 </header>
 

@@ -3,7 +3,7 @@ const COURSES = ['Snídaně','Polévka','Hlavní chod','Příloha','Dezert','Pe�
 const LS_OVERRIDES = 'kucharka_overrides_v1';
 const LS_ADDED = 'kucharka_added_v1';
 let baseRecipes = [], recipes = [], selectedCourses = new Set(), selectedIngredients = new Set();
-let currentId = null, currentServings = 4, editingId = null;
+let currentId = null, currentServings = 4, editingId = null, dietMode = false;
 
 const $ = s => document.querySelector(s);
 const normalize = s => (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();
@@ -86,25 +86,33 @@ function escapeHtml(s){ return String(s||'').replace(/[&<>"']/g, m=>({'&':'&amp;
 
 function openDetail(id){
   const r = recipes.find(x=>x.id===id); if(!r) return;
-  currentId = id; currentServings = r.base_servings;
+  currentId = id; currentServings = r.base_servings; dietMode = false;
   drawDetail();
   $('#detail').showModal();
 }
 function drawDetail(){
   const r = recipes.find(x=>x.id===currentId); if(!r) return;
   const factor = currentServings / r.base_servings;
+  const hasDiet = !!r.diet;
+  const useDiet = dietMode && hasDiet && !r.diet.compliant;
+  const ings = useDiet ? r.diet.ingredients : r.ingredients;
+  const steps = useDiet ? r.diet.steps : r.steps;
   $('#detail-content').innerHTML = `
     ${r.image?`<img src="${r.image}" style="width:100%;max-height:260px;object-fit:cover;border-radius:12px" alt="">`:''}
-    <h2>${escapeHtml(r.title)}</h2>
+    <h2>${escapeHtml(r.title)}${useDiet?' <span class="diet-badge">bezžlučníková varianta</span>':''}</h2>
     <p class="meta">${r.courses.join(', ')} · ⏱ ${r.time_minutes||'?'} min ${r.source_url?`· <a href="${r.source_url}" target="_blank" rel="noopener">Zdroj</a>`:''}</p>
     <div class="portions"><span>Porce:</span><button type="button" id="p-minus">−</button><strong>${currentServings}</strong><button type="button" id="p-plus">+</button><span class="meta">(základ ${r.base_servings})</span></div>
+    ${hasDiet?`<div class="diet-row"><span>🌿 Bezžlučníková dieta</span><label class="switch"><input type="checkbox" id="diet-toggle" ${dietMode?'checked':''}><span class="slider"></span></label></div>
+    ${dietMode && r.diet.compliant?`<p class="diet-note">✅ Tento recept bezžlučníkové dietě vyhovuje už v základní podobě, není potřeba žádná úprava.</p>`:''}
+    ${useDiet?`<p class="diet-note">🌿 Úpravy oproti originálu: ${escapeHtml(r.diet.changes||'')}</p>`:''}`:''}
     <h3>Suroviny</h3>
-    <ul>${r.ingredients.map(i=>{ const a=scaledAmount(i,factor); return `<li>${a!==null&&a!==undefined&&i.scalable?`<strong>${formatAmount(a,i.unit)} ${escapeHtml(i.unit)}</strong> `:''}${escapeHtml(i.name)}${i.note?` <span class="meta">(${escapeHtml(i.note)})</span>`:''}</li>`; }).join('')}</ul>
+    <ul>${ings.map(i=>{ const a=scaledAmount(i,factor); return `<li>${a!==null&&a!==undefined&&i.scalable?`<strong>${formatAmount(a,i.unit)} ${escapeHtml(i.unit)}</strong> `:''}${escapeHtml(i.name)}${i.note?` <span class="meta">(${escapeHtml(i.note)})</span>`:''}</li>`; }).join('')}</ul>
     <h3>Postup</h3>
-    ${r.steps.map((s,idx)=>`<p class="step"><strong>${idx+1}.</strong> ${escapeHtml(s)}</p>`).join('')}
+    ${steps.map((s,idx)=>`<p class="step"><strong>${idx+1}.</strong> ${escapeHtml(s)}</p>`).join('')}
     ${r.notes?`<h3>Poznámka</h3><p>${escapeHtml(r.notes)}</p>`:''}`;
   $('#p-minus').onclick=()=>{ if(currentServings>1){currentServings--; drawDetail();} };
   $('#p-plus').onclick=()=>{ currentServings++; drawDetail(); };
+  const dt=$('#diet-toggle'); if(dt) dt.onchange=()=>{ dietMode=dt.checked; drawDetail(); };
 }
 
 // Editor
@@ -142,6 +150,8 @@ function saveEditor(e){
     courses: courses.length?courses:['Ostatní'], ingredients,
     steps: f.steps.value.split('\n').map(s=>s.trim()).filter(Boolean), notes: f.notes.value.trim()
   };
+  const prevDiet = editingId ? (recipes.find(r=>r.id===editingId)||{}).diet : undefined;
+  if(prevDiet) recipe.diet = prevDiet; // dietní varianta se při ruční editaci zachová
   const {overrides, added}=loadLocal();
   if(editingId && baseRecipes.some(r=>r.id===editingId)) overrides[editingId]=recipe;
   else { const idx=added.findIndex(r=>r.id===recipe.id); if(idx>=0) added[idx]=recipe; else added.push(recipe); }
@@ -158,6 +168,10 @@ async function init(){
   try{ const res=await fetch('recepty.json'); baseRecipes=await res.json(); }
   catch(e){ baseRecipes=[]; }
   merge(); render();
+  const menu=$('#menu');
+  $('#menu-btn').onclick=e=>{ e.stopPropagation(); menu.hidden=!menu.hidden; };
+  menu.addEventListener('click',e=>{ if(e.target.closest('button')||e.target.closest('.file-btn')) menu.hidden=true; });
+  document.addEventListener('click',e=>{ if(!menu.hidden && !e.target.closest('.menu-wrap')) menu.hidden=true; });
   $('#search').oninput=renderList; $('#ingredient-search').oninput=renderIngredientFilters; $('#ingredient-mode').onchange=renderList;
   $('#btn-add').onclick=()=>openEditor(null);
   $('#btn-export').onclick=exportJson;

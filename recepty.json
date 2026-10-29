@@ -74,7 +74,83 @@
       "Podávejte s uvařenou rýží."
     ],
     "time_minutes": 35,
-    "title": "Kuřecí prsa na smetaně"
+    "title": "Kuřecí prsa na smetaně",
+    "diet": {
+      "compliant": false,
+      "changes": "Smetana ke šlehání nahrazena nízkotučným mlékem s trochou mouky na zahuštění, olej jen 1 lžička, cibule se nesmaží dozlatova, ale podusí na troše vody, maso se nerestuje na tuku, ale dusí.",
+      "ingredients": [
+        {
+          "amount": 600,
+          "unit": "g",
+          "name": "kuřecí prsa",
+          "normalized": "kuře",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 200,
+          "unit": "ml",
+          "name": "nízkotučné mléko",
+          "normalized": "mléko",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžíce",
+          "name": "hladká mouka",
+          "normalized": "mouka",
+          "note": "na zahuštění omáčky",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "cibule",
+          "normalized": "cibule",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžička",
+          "name": "olej",
+          "normalized": "olej",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžička",
+          "name": "sladká paprika",
+          "normalized": "paprika mletá",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "sůl",
+          "normalized": "sůl",
+          "note": "",
+          "scalable": false
+        },
+        {
+          "amount": 400,
+          "unit": "g",
+          "name": "rýže",
+          "normalized": "rýže",
+          "note": "",
+          "scalable": true
+        }
+      ],
+      "steps": [
+        "Cibuli nakrájejte nadrobno a poduste ji na lžičce oleje s 2 lžícemi vody doměkka, nesmažte ji dozlatova.",
+        "Přidejte na kostky nakrájená kuřecí prsa, osolte, přidejte papriku, podlijte trochou vody a duste pod pokličkou asi 12 minut.",
+        "Mouku rozmíchejte v nízkotučném mléce, vlijte k masu a za stálého míchání krátce povařte, až omáčka zhoustne.",
+        "Dochuťte a podávejte s uvařenou rýží."
+      ]
+    }
   },
   {
     "base_servings": 4,
@@ -159,7 +235,85 @@
       "Na závěr přidejte prolisovaný česnek a majoránku."
     ],
     "time_minutes": 45,
-    "title": "Bramboračka"
+    "title": "Bramboračka",
+    "diet": {
+      "compliant": false,
+      "changes": "Bez jíšky na tuku a bez smažení cibule - cibule se podusí na vodě, polévka se zahustí rozmačkáním části brambor a moukou rozmíchanou ve studené vodě, česnek jen v malém množství na závěr.",
+      "ingredients": [
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "brambory",
+          "normalized": "brambory",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "mrkev",
+          "normalized": "mrkev",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "cibule",
+          "normalized": "cibule",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "stroužek",
+          "name": "česnek",
+          "normalized": "česnek",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "sušené houby",
+          "normalized": "houby",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžíce",
+          "name": "hladká mouka",
+          "normalized": "mouka",
+          "note": "rozmíchaná ve vodě na zahuštění",
+          "scalable": true
+        },
+        {
+          "amount": 1200,
+          "unit": "ml",
+          "name": "voda / vývar",
+          "normalized": "vývar",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "majoránka",
+          "normalized": "majoránka",
+          "note": "",
+          "scalable": false
+        }
+      ],
+      "steps": [
+        "Houby namočte na 20 minut do vody.",
+        "Cibuli poduste v hrnci na pár lžících vody doměkka, nepřipalujte ji na tuku.",
+        "Zalijte vývarem, přidejte brambory, mrkev a houby i s vodou z namáčení.",
+        "Vařte asi 25 minut doměkka. Část brambor v polévce rozmačkejte vidličkou, aby polévka zhoustla.",
+        "Podle potřeby ještě zahustěte lžící mouky rozmíchané ve studené vodě a krátce provařte.",
+        "Na závěr přidejte prolisovaný česnek (jen 1 stroužek) a majoránku."
+      ]
+    }
   },
   {
     "base_servings": 4,
@@ -228,7 +382,75 @@
       "Plňte podle chuti marmeládou, tvarohem nebo ovocem."
     ],
     "time_minutes": 25,
-    "title": "Palačinky"
+    "title": "Palačinky",
+    "diet": {
+      "compliant": false,
+      "changes": "Mléko polotučné místo plnotučného, ze 2 vajec jen 1 celé a 1 bílek navíc (žloutky jsou pro žlučník těžké), palačinky se nesmaží na oleji - pečou se na kvalitní nepřilnavé pánvi jen zlehka potřené olejem, plní se nízkotučným tvarohem nebo ovocem.",
+      "ingredients": [
+        {
+          "amount": 250,
+          "unit": "g",
+          "name": "hladká mouka",
+          "normalized": "mouka",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 500,
+          "unit": "ml",
+          "name": "polotučné mléko",
+          "normalized": "mléko",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "vejce",
+          "normalized": "vejce",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "bílek",
+          "normalized": "vejce",
+          "note": "navíc místo druhého žloutku",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžíce",
+          "name": "cukr",
+          "normalized": "cukr",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "sůl",
+          "normalized": "sůl",
+          "note": "",
+          "scalable": false
+        },
+        {
+          "amount": 1,
+          "unit": "lžička",
+          "name": "olej",
+          "normalized": "olej",
+          "note": "jen na lehké potření pánve",
+          "scalable": true
+        }
+      ],
+      "steps": [
+        "Mouku, mléko, vejce, bílek, cukr a špetku soli vyšlehejte do hladkého těsta.",
+        "Nechte 10 minut odpočinout.",
+        "Palačinky pečte na nepřilnavé pánvi jen zlehka potřené olejem, z obou stran dosvětla (ne do křupava).",
+        "Plňte nízkotučným tvarohem, ovocem nebo lehkou marmeládou."
+      ]
+    }
   },
   {
     "id": "gobova-juha-slovinska-houbova-polevka-z-hribku",
@@ -367,6 +589,122 @@
       "Zalijte 2 dl vody, promíchejte a vsypte na kousky nakrájené houby, přikryjte pokličkou a nechte 2–3 minuty dusit. Poté do hrnce vsypte na kostky nakrájené brambory, na kolečka nakrájené mrkve a vše zalijte horkou vodou. Zelenina i houby by měly být ponořené.",
       "Čerstvé bylinky nasekejte najemno a polovinu vhoďte do polévky. Dále ji dochuťte solí a pepřem a přikryté vařte 10 minut. Mezitím do šlehačky vmíchejte hladkou mouku. Po uplynutí deseti minut do polévky vmíchejte připravenou šlehačku a vařte za občasného míchání dalších 10 minut. Před servírováním případně dochuťte a zasypte zbylými bylinkami."
     ],
-    "notes": ""
+    "notes": "",
+    "diet": {
+      "compliant": false,
+      "changes": "Máslo vynecháno - cibule a houby se dusí na lžičce oleje a vlastní šťávě místo restování na másle. Smetana ke šlehání nahrazena nízkotučným mlékem, zahuštění zajistí lžíce mouky.",
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "lžička",
+          "name": "olej",
+          "normalized": "olej",
+          "note": "místo másla",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "cibule",
+          "normalized": "cibule",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 2,
+          "unit": "stroužek",
+          "name": "česnek",
+          "normalized": "česnek",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžička",
+          "name": "mletá sladká paprika",
+          "normalized": "paprika mletá",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 5,
+          "unit": "ks",
+          "name": "hřiby",
+          "normalized": "houby",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 2,
+          "unit": "ks",
+          "name": "mrkev",
+          "normalized": "mrkev",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "brambory",
+          "normalized": "brambory",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1.5,
+          "unit": "l",
+          "name": "voda",
+          "normalized": "voda",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "sůl",
+          "normalized": "sůl",
+          "note": "",
+          "scalable": false
+        },
+        {
+          "amount": 1,
+          "unit": "snítka",
+          "name": "libeček",
+          "normalized": "libeček",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 2,
+          "unit": "snítka",
+          "name": "hladkolistá petržel",
+          "normalized": "petržel",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 200,
+          "unit": "ml",
+          "name": "nízkotučné mléko",
+          "normalized": "mléko",
+          "note": "místo smetany ke šlehání",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžíce",
+          "name": "hladká mouka",
+          "normalized": "mouka",
+          "note": "",
+          "scalable": true
+        }
+      ],
+      "steps": [
+        "Ve velkém hrnci na lžičce oleje a 2 lžících vody poduste najemno nakrájenou cibuli a plátky česneku doměkka, nesmažte.",
+        "Zasypte paprikou, zalijte 2 dl vody, promíchejte a vsypte na kousky nakrájené houby, přikryjte pokličkou a nechte 2-3 minuty dusit.",
+        "Přidejte mrkev, brambor, bylinky a zbytek vody, osolte a vařte, dokud zelenina nezměkne.",
+        "Mouku rozmíchejte v nízkotučném mléce, vlijte do polévky a krátce povařte do lehkého zhoustnutí. Pepř přidejte jen velmi mírně nebo vynechte."
+      ]
+    }
   }
 ]

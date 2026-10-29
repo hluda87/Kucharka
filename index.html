@@ -24,17 +24,20 @@
 
 <section class="filters">
   <input id="search" type="search" placeholder="Hledat recept…">
-  <div id="course-filters" class="chips"></div>
-  <div class="row">
-    <label>Režim surovin:
-      <select id="ingredient-mode">
-        <option value="contains">Obsahuje vybrané (všechny)</option>
-        <option value="home">Mám doma (chybí max 2)</option>
-      </select>
-    </label>
-    <input id="ingredient-search" type="search" placeholder="Hledat surovinu…">
+  <div class="ing-panel">
+    <h2 class="panel-title">Suroviny</h2>
+    <div class="row">
+      <label>Režim surovin:
+        <select id="ingredient-mode">
+          <option value="contains">Obsahuje vybrané (všechny)</option>
+          <option value="home">Mám doma (chybí max 2)</option>
+        </select>
+      </label>
+      <input id="ingredient-search" type="search" placeholder="Hledat surovinu…">
+    </div>
+    <div id="ingredient-filters" class="ingredients"></div>
   </div>
-  <div id="ingredient-filters" class="ingredients"></div>
+  <div id="course-filters" class="chips"></div>
   <p id="count" class="count"></p>
 </section>
 
@@ -42,16 +45,20 @@
 
 <dialog id="detail">
   <div class="detail-top">
-    <button id="cook-btn" type="button" aria-label="Režim vaření - obrazovka nezhasne" aria-pressed="false" title="Režim vaření (obrazovka nezhasne)">
+    <button id="cook-btn" class="icon-btn" type="button" aria-label="Režim vaření - obrazovka nezhasne" aria-pressed="false" title="Režim vaření (obrazovka nezhasne)">
       <svg class="pot-off" viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"><g fill="none" stroke="#444" stroke-width="2.4" stroke-linecap="round"><path d="M14 21a10 6.5 0 0 1 20 0" fill="#eee"/><circle cx="24" cy="14.2" r="1.7" fill="#444" stroke="none"/><rect x="9" y="21" width="30" height="3.6" rx="1.8" fill="#eee"/><path d="M12.5 25.5h23V38a4 4 0 0 1-4 4h-15a4 4 0 0 1-4-4z" fill="#eee"/><path d="M9.5 28.5a3.2 3.2 0 0 0 0 5.5M38.5 28.5a3.2 3.2 0 0 1 0 5.5"/></g></svg>
       <svg class="pot-on" viewBox="0 0 48 48" width="26" height="26" aria-hidden="true" style="display:none"><g fill="none" stroke="#b3541e" stroke-width="2.4" stroke-linecap="round"><path d="M17 10.5c-1.6-2 .8-3.2 0-5M24 10.5c-1.6-2 .8-3.2 0-5M31 10.5c-1.6-2 .8-3.2 0-5"/><path d="M14 21a10 6.5 0 0 1 20 0" fill="#ffe8d6"/><circle cx="24" cy="14.2" r="1.7" fill="#b3541e" stroke="none"/><rect x="9" y="21" width="30" height="3.6" rx="1.8" fill="#ffe8d6"/><path d="M12.5 25.5h23V38a4 4 0 0 1-4 4h-15a4 4 0 0 1-4-4z" fill="#ffe8d6"/><path d="M9.5 28.5a3.2 3.2 0 0 0 0 5.5M38.5 28.5a3.2 3.2 0 0 1 0 5.5"/><path d="M17.5 33.5c2-1.4 4 1.4 6 0s4 1.4 6 0" stroke-width="2"/></g></svg>
     </button>
-    <button id="detail-x" type="button" aria-label="Zavřít recept" title="Zavřít">✕</button>
+    <button id="detail-x" class="icon-btn" type="button" aria-label="Zavřít recept" title="Zavřít">✕</button>
   </div>
   <div id="detail-content"></div>
-  <div class="dialog-actions">
-    <button id="detail-edit" type="button">Upravit recept</button>
-    <button id="detail-close" type="button">Zavřít</button>
+  <div class="dialog-actions icon-actions">
+    <button id="detail-edit" class="icon-btn" type="button" aria-label="Upravit recept" title="Upravit recept">
+      <svg viewBox="0 0 48 48" width="24" height="24" aria-hidden="true"><g fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M33.5 7.5l7 7L17 38l-8.5 2L10.5 31.5z" fill="#fff"/><path d="M30 11l7 7M13.5 34.5l-1.6 4.3 4.3-1.6"/></g></svg>
+    </button>
+    <button id="detail-delete" class="icon-btn" type="button" aria-label="Odstranit recept" title="Odstranit recept">
+      <svg viewBox="0 0 48 48" width="24" height="24" aria-hidden="true"><g fill="none" stroke="#000" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13h28M19 13V9.5A1.5 1.5 0 0 1 20.5 8h7A1.5 1.5 0 0 1 29 9.5V13M13 13l1.8 24A3 3 0 0 0 17.8 40h12.4a3 3 0 0 0 3-3L35 13M20 20v13M28 20v13" /></g></svg>
+    </button>
   </div>
 </dialog>
 

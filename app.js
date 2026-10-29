@@ -2,6 +2,7 @@
 const COURSES = ['Snídaně','Polévka','Hlavní chod','Příloha','Dezert','Pečení','Nápoje','Ostatní'];
 const LS_OVERRIDES = 'kucharka_overrides_v1';
 const LS_ADDED = 'kucharka_added_v1';
+const LS_DELETED = 'kucharka_deleted_v1';
 let baseRecipes = [], recipes = [], selectedCourses = new Set(), selectedIngredients = new Set();
 let currentId = null, currentServings = 4, editingId = null, dietMode = false;
 
@@ -26,16 +27,26 @@ function scaledAmount(ing, factor){
   return ing.amount * factor;
 }
 function loadLocal(){
-  try{ return {overrides: JSON.parse(localStorage.getItem(LS_OVERRIDES)||'{}'), added: JSON.parse(localStorage.getItem(LS_ADDED)||'[]')}; }
-  catch(e){ return {overrides:{}, added:[]}; }
+  try{ return {overrides: JSON.parse(localStorage.getItem(LS_OVERRIDES)||'{}'), added: JSON.parse(localStorage.getItem(LS_ADDED)||'[]'), deleted: JSON.parse(localStorage.getItem(LS_DELETED)||'[]')}; }
+  catch(e){ return {overrides:{}, added:[], deleted:[]}; }
 }
-function saveLocal(overrides, added){ localStorage.setItem(LS_OVERRIDES, JSON.stringify(overrides)); localStorage.setItem(LS_ADDED, JSON.stringify(added)); }
+function saveLocal(overrides, added, deleted){ localStorage.setItem(LS_OVERRIDES, JSON.stringify(overrides)); localStorage.setItem(LS_ADDED, JSON.stringify(added)); if(deleted) localStorage.setItem(LS_DELETED, JSON.stringify(deleted)); }
 function merge(){
-  const {overrides, added} = loadLocal();
+  const {overrides, added, deleted} = loadLocal();
+  const gone = new Set(deleted);
   const map = new Map();
-  baseRecipes.forEach(r => map.set(r.id, overrides[r.id] || r));
+  baseRecipes.forEach(r => { if(!gone.has(r.id)) map.set(r.id, overrides[r.id] || r); });
   added.forEach(r => map.set(r.id, r));
   recipes = [...map.values()];
+}
+function deleteCurrentRecipe(){
+  const r = recipes.find(x=>x.id===currentId); if(!r) return;
+  if(!confirm(`Opravdu odstranit recept „${r.title}“? (V tomto zařízení; vrátit ho jde přes „Zrušit lokální úpravy“ v menu.)`)) return;
+  const {overrides, added, deleted} = loadLocal();
+  if(baseRecipes.some(b=>b.id===r.id)){ if(!deleted.includes(r.id)) deleted.push(r.id); delete overrides[r.id]; }
+  const newAdded = added.filter(a=>a.id!==r.id);
+  saveLocal(overrides, newAdded, deleted);
+  $('#detail').close(); currentId=null; merge(); render();
 }
 function allIngredients(){
   const set = new Map();
@@ -69,6 +80,7 @@ function passes(r){
   }
   return true;
 }
+const CLOCK_SVG = '<svg class="clk" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13" r="7.5"/><path d="M12 9.8V13l2.4 1.6M9.3 3h5.4"/></g></svg>';
 function renderList(){
   const filtered = recipes.filter(passes);
   $('#count').textContent = `Zobrazeno ${filtered.length} z ${recipes.length} receptů`;
@@ -76,7 +88,7 @@ function renderList(){
     <article class="card" data-id="${r.id}">
       ${r.image?`<img src="${r.image}" alt="">`:`<div class="emoji">🍽️</div>`}
       <div class="card-body"><h3>${escapeHtml(r.title)}</h3>
-      <div class="meta">${r.courses.join(', ')} · ⏱ ${r.time_minutes||'?'} min · ${r.base_servings} porcí</div>
+      <div class="meta card-meta">${r.courses.map(c=>`<span class="course-pill">${escapeHtml(c)}</span>`).join(' ')} <span class="time">${CLOCK_SVG} ${r.time_minutes||'?'} min · ${r.base_servings} porcí</span></div>
       <div class="meta">${r.ingredients.slice(0,5).map(i=>escapeHtml(i.name)).join(', ')}${r.ingredients.length>5?'…':''}</div></div>
     </article>`).join('') || '<p>Žádný recept neodpovídá filtrům.</p>';
   document.querySelectorAll('.card').forEach(c=>c.onclick=()=>openDetail(c.dataset.id));
@@ -100,7 +112,7 @@ function drawDetail(){
   $('#detail-content').innerHTML = `
     ${r.image?`<img src="${r.image}" style="width:100%;max-height:260px;object-fit:cover;border-radius:12px" alt="">`:''}
     <h2>${escapeHtml(r.title)}${useDiet?' <span class="diet-badge">bezžlučníková varianta</span>':''}</h2>
-    <p class="meta">${r.courses.join(', ')} · ⏱ ${r.time_minutes||'?'} min ${r.source_url?`· <a href="${r.source_url}" target="_blank" rel="noopener">Zdroj</a>`:''}</p>
+    <p class="meta">${r.courses.join(', ')} · ${CLOCK_SVG} ${r.time_minutes||'?'} min ${r.source_url?`· <a href="${r.source_url}" target="_blank" rel="noopener">Zdroj</a>`:''}</p>
     <div class="portions"><span>Porce:</span><button type="button" id="p-minus">−</button><strong>${currentServings}</strong><button type="button" id="p-plus">+</button><span class="meta">(základ ${r.base_servings})</span></div>
     ${hasDiet?`<div class="diet-row"><span>🌿 Bezžlučníková dieta</span><label class="switch"><input type="checkbox" id="diet-toggle" ${dietMode?'checked':''}><span class="slider"></span></label></div>
     ${dietMode && r.diet.compliant?`<p class="diet-note">✅ Tento recept bezžlučníkové dietě vyhovuje už v základní podobě, není potřeba žádná úprava.</p>`:''}
@@ -175,10 +187,10 @@ async function init(){
   $('#search').oninput=renderList; $('#ingredient-search').oninput=renderIngredientFilters; $('#ingredient-mode').onchange=renderList;
   $('#btn-add').onclick=()=>openEditor(null);
   $('#btn-export').onclick=exportJson;
-  $('#btn-reset').onclick=()=>{ if(confirm('Zrušit všechny lokální úpravy a nové recepty v tomto zařízení?')){ localStorage.removeItem(LS_OVERRIDES); localStorage.removeItem(LS_ADDED); merge(); render(); } };
+  $('#btn-reset').onclick=()=>{ if(confirm('Zrušit všechny lokální úpravy a nové recepty v tomto zařízení?')){ localStorage.removeItem(LS_OVERRIDES); localStorage.removeItem(LS_ADDED); localStorage.removeItem(LS_DELETED); merge(); render(); } };
   $('#file-import').onchange=async e=>{ const file=e.target.files[0]; if(!file) return; try{ const data=JSON.parse(await file.text()); const arr=Array.isArray(data)?data:data.recipes; if(!Array.isArray(arr)) throw new Error('bad'); const {overrides,added}=loadLocal(); arr.forEach(r=>{ if(baseRecipes.some(b=>b.id===r.id)) overrides[r.id]=r; else if(!added.some(a=>a.id===r.id)) added.push(r); else added[added.findIndex(a=>a.id===r.id)]=r; }); saveLocal(overrides,added); merge(); render(); alert('Import hotov.'); }catch(err){ alert('Soubor se nepodařilo načíst.'); } };
-  $('#detail-close').onclick=()=>$('#detail').close();
   $('#detail-x').onclick=()=>$('#detail').close();
+  $('#detail-delete').onclick=deleteCurrentRecipe;
   // Režim vaření: ikona hrnce + Wake Lock (obrazovka nezhasne)
   let wakeLock=null, cooking=false;
   const cookBtn=$('#cook-btn');

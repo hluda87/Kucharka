@@ -7,8 +7,8 @@ header button,header .file-btn{background:#fff}
 input,select,textarea{padding:9px;border:1px solid #ccc;border-radius:10px;font-size:15px;width:100%}
 .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.row>*{flex:1;min-width:180px}
 .chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border-radius:999px}.chip.active{background:#b3541e;color:#fff}
-.ingredients{display:flex;gap:6px;flex-wrap:wrap;max-height:150px;overflow:auto}
-.ingredients label{background:#fff;border:1px solid #ddd;border-radius:999px;padding:5px 9px;font-size:13px;display:flex;gap:5px;align-items:center}
+.ingredients{display:flex;gap:4px;flex-wrap:wrap;max-height:150px;overflow:auto}
+.ingredients label{background:#fff;border:1px solid #ddd;border-radius:999px;padding:3px 8px;font-size:13px;line-height:1.2;display:flex;gap:5px;align-items:center;margin:2px 0}
 .ingredients input{width:auto}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding:0 16px 24px}
 .card{background:#fff;border:1px solid #eee;border-radius:16px;overflow:hidden;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.05)}
@@ -16,8 +16,8 @@ input,select,textarea{padding:9px;border:1px solid #ccc;border-radius:10px;font-
 .card .emoji{height:140px;display:flex;align-items:center;justify-content:center;font-size:56px;background:#f3e2d3}
 .card-body{padding:12px}.card-body h3{margin:0 0 6px}.meta{color:#666;font-size:13px}
 dialog{border:none;border-radius:16px;max-width:720px;width:94vw;max-height:90vh;overflow:auto}
-#detail-x{position:sticky;top:8px;margin-left:auto;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:#b3541e;color:#fff;font-size:20px;line-height:1;border:none;box-shadow:0 2px 8px rgba(0,0,0,.3);cursor:pointer;z-index:10}
-#detail-x:hover{background:#8f4215}
+#detail-x{position:sticky;top:8px;margin-left:auto;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.95);color:#000;font-size:24px;font-weight:900;line-height:1;border:2px solid #000;box-shadow:0 2px 8px rgba(0,0,0,.3);cursor:pointer;z-index:10}
+#detail-x:hover{background:#e8e8e8}
 .dialog-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}
 .portions{display:flex;gap:10px;align-items:center;font-size:18px}
 .portions button{width:40px;height:40px;font-size:20px}

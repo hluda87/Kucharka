@@ -41,7 +41,13 @@
 <main id="list" class="grid"></main>
 
 <dialog id="detail">
-  <button id="detail-x" type="button" aria-label="Zavřít recept" title="Zavřít">✕</button>
+  <div class="detail-top">
+    <button id="cook-btn" type="button" aria-label="Režim vaření - obrazovka nezhasne" aria-pressed="false" title="Režim vaření (obrazovka nezhasne)">
+      <svg class="pot-off" viewBox="0 0 48 48" width="26" height="26" aria-hidden="true"><g fill="none" stroke="#444" stroke-width="2.4" stroke-linecap="round"><path d="M14 21a10 6.5 0 0 1 20 0" fill="#eee"/><circle cx="24" cy="14.2" r="1.7" fill="#444" stroke="none"/><rect x="9" y="21" width="30" height="3.6" rx="1.8" fill="#eee"/><path d="M12.5 25.5h23V38a4 4 0 0 1-4 4h-15a4 4 0 0 1-4-4z" fill="#eee"/><path d="M9.5 28.5a3.2 3.2 0 0 0 0 5.5M38.5 28.5a3.2 3.2 0 0 1 0 5.5"/></g></svg>
+      <svg class="pot-on" viewBox="0 0 48 48" width="26" height="26" aria-hidden="true" style="display:none"><g fill="none" stroke="#b3541e" stroke-width="2.4" stroke-linecap="round"><path d="M17 10.5c-1.6-2 .8-3.2 0-5M24 10.5c-1.6-2 .8-3.2 0-5M31 10.5c-1.6-2 .8-3.2 0-5"/><path d="M14 21a10 6.5 0 0 1 20 0" fill="#ffe8d6"/><circle cx="24" cy="14.2" r="1.7" fill="#b3541e" stroke="none"/><rect x="9" y="21" width="30" height="3.6" rx="1.8" fill="#ffe8d6"/><path d="M12.5 25.5h23V38a4 4 0 0 1-4 4h-15a4 4 0 0 1-4-4z" fill="#ffe8d6"/><path d="M9.5 28.5a3.2 3.2 0 0 0 0 5.5M38.5 28.5a3.2 3.2 0 0 1 0 5.5"/><path d="M17.5 33.5c2-1.4 4 1.4 6 0s4 1.4 6 0" stroke-width="2"/></g></svg>
+    </button>
+    <button id="detail-x" type="button" aria-label="Zavřít recept" title="Zavřít">✕</button>
+  </div>
   <div id="detail-content"></div>
   <div class="dialog-actions">
     <button id="detail-edit" type="button">Upravit recept</button>

@@ -16,6 +16,8 @@ input,select,textarea{padding:9px;border:1px solid #ccc;border-radius:10px;font-
 .card .emoji{height:140px;display:flex;align-items:center;justify-content:center;font-size:56px;background:#f3e2d3}
 .card-body{padding:12px}.card-body h3{margin:0 0 6px}.meta{color:#666;font-size:13px}
 dialog{border:none;border-radius:16px;max-width:720px;width:94vw;max-height:90vh;overflow:auto}
+#detail-x{position:sticky;top:8px;margin-left:auto;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:50%;background:#b3541e;color:#fff;font-size:20px;line-height:1;border:none;box-shadow:0 2px 8px rgba(0,0,0,.3);cursor:pointer;z-index:10}
+#detail-x:hover{background:#8f4215}
 .dialog-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}
 .portions{display:flex;gap:10px;align-items:center;font-size:18px}
 .portions button{width:40px;height:40px;font-size:20px}

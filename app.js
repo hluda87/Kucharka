@@ -164,6 +164,8 @@ async function init(){
   $('#btn-reset').onclick=()=>{ if(confirm('Zrušit všechny lokální úpravy a nové recepty v tomto zařízení?')){ localStorage.removeItem(LS_OVERRIDES); localStorage.removeItem(LS_ADDED); merge(); render(); } };
   $('#file-import').onchange=async e=>{ const file=e.target.files[0]; if(!file) return; try{ const data=JSON.parse(await file.text()); const arr=Array.isArray(data)?data:data.recipes; if(!Array.isArray(arr)) throw new Error('bad'); const {overrides,added}=loadLocal(); arr.forEach(r=>{ if(baseRecipes.some(b=>b.id===r.id)) overrides[r.id]=r; else if(!added.some(a=>a.id===r.id)) added.push(r); else added[added.findIndex(a=>a.id===r.id)]=r; }); saveLocal(overrides,added); merge(); render(); alert('Import hotov.'); }catch(err){ alert('Soubor se nepodařilo načíst.'); } };
   $('#detail-close').onclick=()=>$('#detail').close();
+  $('#detail-x').onclick=()=>$('#detail').close();
+  $('#detail').addEventListener('click',e=>{ if(e.target.id==='detail') e.currentTarget.close(); });
   $('#detail-edit').onclick=()=>{ $('#detail').close(); openEditor(currentId); };
   $('#editor-cancel').onclick=()=>$('#editor').close();
   $('#add-ingredient').onclick=()=>addIngredientRow();

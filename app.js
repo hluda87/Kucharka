@@ -170,7 +170,11 @@ async function init(){
   $('#editor-cancel').onclick=()=>$('#editor').close();
   $('#add-ingredient').onclick=()=>addIngredientRow();
   $('#editor-form').addEventListener('submit', saveEditor);
-  if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js').catch(()=>{}); }
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('sw.js').then(reg=>reg.update()).catch(()=>{});
+    let refreshing=false;
+    navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(!refreshing){ refreshing=true; location.reload(); } });
+  }
 }
 if(typeof document!=='undefined') document.addEventListener('DOMContentLoaded', init);
 // Export pro testy

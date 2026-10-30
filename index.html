@@ -25,7 +25,10 @@
 <section class="filters">
   <input id="search" type="search" placeholder="Hledat recept…">
   <div class="ing-panel">
-    <h2 class="panel-title">Suroviny</h2>
+    <div class="panel-head">
+      <h2 class="panel-title">Suroviny</h2>
+      <button id="clear-ingredients" type="button" class="clear-btn" hidden>Zrušit výběr surovin</button>
+    </div>
     <div class="row">
       <label>Režim surovin:
         <select id="ingredient-mode">

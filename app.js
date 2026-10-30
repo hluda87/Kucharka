@@ -82,6 +82,8 @@ function passes(r){
 }
 const CLOCK_SVG = '<svg class="clk" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13" r="7.5"/><path d="M12 9.8V13l2.4 1.6M9.3 3h5.4"/></g></svg>';
 function renderList(){
+  const cb = $('#clear-ingredients');
+  if(cb) cb.hidden = !(selectedIngredients.size || $('#ingredient-search').value);
   const filtered = recipes.filter(passes);
   $('#count').textContent = `Zobrazeno ${filtered.length} z ${recipes.length} receptů`;
   $('#list').innerHTML = filtered.map(r=>`
@@ -184,7 +186,8 @@ async function init(){
   $('#menu-btn').onclick=e=>{ e.stopPropagation(); menu.hidden=!menu.hidden; };
   menu.addEventListener('click',e=>{ if(e.target.closest('button')||e.target.closest('.file-btn')) menu.hidden=true; });
   document.addEventListener('click',e=>{ if(!menu.hidden && !e.target.closest('.menu-wrap')) menu.hidden=true; });
-  $('#search').oninput=renderList; $('#ingredient-search').oninput=renderIngredientFilters; $('#ingredient-mode').onchange=renderList;
+  $('#search').oninput=renderList; $('#ingredient-search').oninput=()=>{ renderIngredientFilters(); renderList(); }; $('#ingredient-mode').onchange=renderList;
+  $('#clear-ingredients').onclick=()=>{ selectedIngredients.clear(); $('#ingredient-search').value=''; renderIngredientFilters(); renderList(); };
   $('#btn-add').onclick=()=>openEditor(null);
   $('#btn-export').onclick=exportJson;
   $('#btn-reset').onclick=()=>{ if(confirm('Zrušit všechny lokální úpravy a nové recepty v tomto zařízení?')){ localStorage.removeItem(LS_OVERRIDES); localStorage.removeItem(LS_ADDED); localStorage.removeItem(LS_DELETED); merge(); render(); } };

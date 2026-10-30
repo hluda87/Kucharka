@@ -13,6 +13,9 @@ button,.file-btn{background:#fff;color:#7a3410;border:1px solid #d9a679;border-r
 #search{border-radius:999px;padding:11px 18px;border-color:#ddd2c4;background:#fff}
 .ing-panel{background:#fff;border:1px solid #eee0d0;border-radius:16px;padding:12px 14px 14px;display:grid;gap:10px;box-shadow:0 4px 14px rgba(90,50,20,.06)}
 .panel-title{font-size:16px;margin:0;color:#1e1e1e}
+.panel-head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.clear-btn{background:#fff;border:1px solid #d8c3ae;border-radius:999px;padding:4px 12px;color:#b3541e;font-size:13px;cursor:pointer;white-space:nowrap}
+.clear-btn:active{background:#ffe8d6}
 .ing-panel .row label{margin:0}
 #ingredient-search{border-radius:999px;padding:10px 16px;border-color:#ddd2c4;background:#fff}
 input,select,textarea{padding:9px;border:1px solid #ccc;border-radius:10px;font-size:15px;width:100%}

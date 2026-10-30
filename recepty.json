@@ -706,5 +706,251 @@
         "Mouku rozmíchejte v nízkotučném mléce, vlijte do polévky a krátce povařte do lehkého zhoustnutí. Pepř přidejte jen velmi mírně nebo vynechte."
       ]
     }
+  },
+  {
+    "id": "asijska-silna-polevka",
+    "title": "Asijská silná polévka",
+    "source_url": "https://www.albert.cz/recepty/asijska-silna-polevka/r/R00007600",
+    "image": "https://static.albert.cz/medias/sys_master/recipes/hd9/h91/9179286306846.jpg",
+    "courses": [
+      "Polévka"
+    ],
+    "base_servings": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "chilli paprička",
+        "normalized": "chilli paprička",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "ks",
+        "name": "kuřecí stehna",
+        "normalized": "kuře",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 3,
+        "unit": "ks",
+        "name": "cibulka jarní",
+        "normalized": "cibulka jarní",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "mrkev",
+        "normalized": "mrkev",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "plž",
+        "name": "olej sezamový",
+        "normalized": "olej sezamový",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 4,
+        "unit": "cm",
+        "name": "zázvor",
+        "normalized": "zázvor",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 150,
+        "unit": "g",
+        "name": "žampiony",
+        "normalized": "houby",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 4,
+        "unit": "strouž.",
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "l",
+        "name": "voda",
+        "normalized": "voda",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "plž",
+        "name": "rybí omáčka",
+        "normalized": "rybí omáčka",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "plž",
+        "name": "sojová omáčka",
+        "normalized": "sojová omáčka",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pepř",
+        "normalized": "pepř",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "koriandr",
+        "normalized": "koriandr",
+        "note": "nasekaný, na závěr",
+        "scalable": false
+      }
+    ],
+    "steps": [
+      "Kuřecí stehna vykostěte. Vykostěná kuřecí stehna nakrájejte na nudličky.",
+      "V hrnci rozehřejte na mírném ohni olej. Vsypte maso, bílé části cibulek pokrájené na nudličky, mrkev na kolečka, chilli papričky se zázvorem na plátky, žampiony na čtvrtiny, česnek ponechte v celku. Osolte, opepřete a restujte 3 minuty. Zalijte vodou, přidejte sojovou omáčku a vařte na mírném ohni 15 minut.",
+      "Vlijte rybí omáčku a ještě 5 minut povařte. Nakonec přidejte nasekaný koriandr."
+    ],
+    "notes": "",
+    "diet": {
+      "compliant": false,
+      "changes": "Kuřecí stehna nahrazena libovými kuřecími prsy bez kůže, chilli paprička vynechána, maso a zelenina se nerestují na oleji, ale podusí na vodě jen s lžičkou sezamového oleje, sojová a rybí omáčka v menším množství.",
+      "ingredients": [
+        {
+          "amount": 2,
+          "unit": "ks",
+          "name": "kuřecí prsa",
+          "normalized": "kuře",
+          "note": "bez kůže, místo stehen",
+          "scalable": true
+        },
+        {
+          "amount": 3,
+          "unit": "ks",
+          "name": "cibulka jarní",
+          "normalized": "cibulka jarní",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "mrkev",
+          "normalized": "mrkev",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžička",
+          "name": "olej sezamový",
+          "normalized": "olej sezamový",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 4,
+          "unit": "cm",
+          "name": "zázvor",
+          "normalized": "zázvor",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 150,
+          "unit": "g",
+          "name": "žampiony",
+          "normalized": "houby",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 4,
+          "unit": "strouž.",
+          "name": "česnek",
+          "normalized": "česnek",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "l",
+          "name": "voda",
+          "normalized": "voda",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "plž",
+          "name": "rybí omáčka",
+          "normalized": "rybí omáčka",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "plž",
+          "name": "sojová omáčka",
+          "normalized": "sojová omáčka",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "sůl",
+          "normalized": "sůl",
+          "note": "",
+          "scalable": false
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "pepř",
+          "normalized": "pepř",
+          "note": "",
+          "scalable": false
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "koriandr",
+          "normalized": "koriandr",
+          "note": "nasekaný, na závěr",
+          "scalable": false
+        }
+      ],
+      "steps": [
+        "Kuřecí prsa nakrájejte na nudličky.",
+        "V hrnci rozehřejte na mírném ohni lžičku sezamového oleje s trochou vody. Vsypte maso, bílé části cibulek pokrájené na nudličky, mrkev na kolečka, zázvor na plátky, žampiony na čtvrtiny, česnek ponechte v celku. Osolte, opepřete jen lehce a poduste 3 minuty. Zalijte vodou, přidejte sojovou omáčku a vařte na mírném ohni 15 minut.",
+        "Vlijte rybí omáčku a ještě 5 minut povařte. Nakonec přidejte nasekaný koriandr."
+      ]
+    }
   }
 ]

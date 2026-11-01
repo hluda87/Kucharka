@@ -130,11 +130,36 @@ function drawDetail(){
 }
 
 // Editor
+let editorImage='';
+function setEditorImage(v){
+  editorImage=v||'';
+  const prev=$('#editor-photo-preview'), rem=$('#editor-photo-remove');
+  if(editorImage){ prev.src=editorImage; prev.style.display='block'; rem.style.display=''; }
+  else { prev.removeAttribute('src'); prev.style.display='none'; rem.style.display='none'; $('#editor-photo').value=''; }
+}
+function handlePhotoFile(file){
+  if(!file) return;
+  const url=URL.createObjectURL(file);
+  const img=new Image();
+  img.onload=()=>{
+    const max=1024; let w=img.naturalWidth, h=img.naturalHeight;
+    const s=Math.min(1, max/Math.max(w,h)); w=Math.max(1,Math.round(w*s)); h=Math.max(1,Math.round(h*s));
+    const c=document.createElement('canvas'); c.width=w; c.height=h;
+    c.getContext('2d').drawImage(img,0,0,w,h);
+    URL.revokeObjectURL(url);
+    setEditorImage(c.toDataURL('image/jpeg',0.82)); // zmenšená kopie, aby se vešla do úložiště zařízení
+  };
+  img.onerror=()=>{ URL.revokeObjectURL(url); alert('Fotku se nepodařilo načíst.'); };
+  img.src=url;
+}
 function openEditor(id){
   editingId = id || null;
   const r = id ? recipes.find(x=>x.id===id) : {title:'',source_url:'',image:'',base_servings:4,time_minutes:'',courses:[],ingredients:[{amount:'',unit:'',name:'',note:''}],steps:[],notes:''};
   const f = $('#editor-form');
-  f.title.value=r.title||''; f.source_url.value=r.source_url||''; f.image.value=r.image||'';
+  f.title.value=r.title||''; f.source_url.value=r.source_url||'';
+  setEditorImage(r.image||'');
+  $('#editor-photo').onchange=e=>handlePhotoFile(e.target.files[0]);
+  $('#editor-photo-remove').onclick=()=>setEditorImage('');
   f.base_servings.value=r.base_servings||4; f.time_minutes.value=r.time_minutes||''; f.steps.value=(r.steps||[]).join('\n'); f.notes.value=r.notes||'';
   $('#editor-title').textContent = id ? 'Upravit recept' : 'Nový recept';
   $('#editor-courses').innerHTML = COURSES.map(c=>`<label style="display:inline-flex;gap:5px;align-items:center"><input type="checkbox" name="course" value="${c}" style="width:auto" ${r.courses.includes(c)?'checked':''}> ${c}</label>`).join('');
@@ -159,7 +184,7 @@ function saveEditor(e){
   const courses=[...f.querySelectorAll('input[name="course"]:checked')].map(x=>x.value);
   const recipe={
     id: editingId || ('recept-'+Date.now()),
-    title: f.title.value.trim(), source_url:f.source_url.value.trim(), image:f.image.value.trim(),
+    title: f.title.value.trim(), source_url:f.source_url.value.trim(), image:editorImage,
     base_servings: parseInt(f.base_servings.value,10)||1, time_minutes: f.time_minutes.value?parseInt(f.time_minutes.value,10):null,
     courses: courses.length?courses:['Ostatní'], ingredients,
     steps: f.steps.value.split('\n').map(s=>s.trim()).filter(Boolean), notes: f.notes.value.trim()

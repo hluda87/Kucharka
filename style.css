@@ -58,4 +58,6 @@ dialog{border:none;border-radius:16px;max-width:720px;width:94vw;max-height:90vh
 .diet-badge{background:#2e9e4f;color:#fff;font-size:12px;padding:3px 8px;border-radius:999px;vertical-align:middle}
 .hint,.count{color:#666;font-size:13px}fieldset{border:1px solid #ddd;border-radius:10px}
 label{display:grid;gap:4px;margin:8px 0}
+.photo-edit{display:grid;gap:4px;margin:8px 0}
+.photo-edit .row{display:flex;gap:8px;align-items:stretch}
 .step{margin:6px 0}

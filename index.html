@@ -70,7 +70,14 @@
     <h2 id="editor-title">Upravit recept</h2>
     <label>Název <input name="title" required></label>
     <label>Zdroj (URL) <input name="source_url" type="url" placeholder="https://…"></label>
-    <label>Fotka (URL) <input name="image" type="url" placeholder="https://…"></label>
+    <div class="photo-edit">
+      <span>Fotka</span>
+      <img id="editor-photo-preview" alt="Náhled fotky" style="display:none;width:100%;max-height:170px;object-fit:cover;border-radius:10px">
+      <div class="row">
+        <label class="file-btn" style="flex:1;text-align:center;margin:0">📷 Přidat fotku<input id="editor-photo" type="file" accept="image/*" hidden></label>
+        <button type="button" id="editor-photo-remove" style="display:none">Odebrat fotku</button>
+      </div>
+    </div>
     <div class="row">
       <label>Základní porce <input name="base_servings" type="number" min="1" step="1" required></label>
       <label>Čas (min) <input name="time_minutes" type="number" min="0" step="1"></label>

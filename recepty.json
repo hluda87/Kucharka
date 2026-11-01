@@ -722,7 +722,7 @@
         "amount": 1,
         "unit": "ks",
         "name": "chilli paprička",
-        "normalized": "chilli paprička",
+        "normalized": "chilli",
         "note": "",
         "scalable": true
       },
@@ -738,7 +738,7 @@
         "amount": 3,
         "unit": "ks",
         "name": "cibulka jarní",
-        "normalized": "cibulka jarní",
+        "normalized": "jarní cibulka",
         "note": "",
         "scalable": true
       },
@@ -802,7 +802,7 @@
         "amount": 2,
         "unit": "plž",
         "name": "sojová omáčka",
-        "normalized": "sojová omáčka",
+        "normalized": "sójová omáčka",
         "note": "",
         "scalable": true
       },
@@ -853,7 +853,7 @@
           "amount": 3,
           "unit": "ks",
           "name": "cibulka jarní",
-          "normalized": "cibulka jarní",
+          "normalized": "jarní cibulka",
           "note": "",
           "scalable": true
         },
@@ -917,7 +917,7 @@
           "amount": 1,
           "unit": "plž",
           "name": "sojová omáčka",
-          "normalized": "sojová omáčka",
+          "normalized": "sójová omáčka",
           "note": "",
           "scalable": true
         },
@@ -953,16 +953,131 @@
       ]
     }
   },
-    {
-      "id": "perkelt-z-drstek-pacal-porkolt",
-      "title": "Perkelt z drštěk (Pacal pörkölt)",
-      "source_url": "https://www.receptyonline.cz/recept/jidlo/perkelt-z-drstek-pacal-porkolt/",
-      "image": "https://www.receptyonline.cz/wp-content/uploads/2023/06/Perkelt-z-drstek-Pacal-porkolt.jpg",
-      "courses": [
-        "Hlavní chod"
-      ],
-      "base_servings": 4,
-      "time_minutes": 40,
+  {
+    "id": "perkelt-z-drstek-pacal-porkolt",
+    "title": "Perkelt z drštěk (Pacal pörkölt)",
+    "source_url": "https://www.receptyonline.cz/recept/jidlo/perkelt-z-drstek-pacal-porkolt/",
+    "image": "https://www.receptyonline.cz/wp-content/uploads/2023/06/Perkelt-z-drstek-Pacal-porkolt.jpg",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 4,
+    "time_minutes": 40,
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "dršťky",
+        "normalized": "dršťky",
+        "note": "předvařené",
+        "scalable": true
+      },
+      {
+        "amount": 50,
+        "unit": "g",
+        "name": "slanina",
+        "normalized": "slanina",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "dl",
+        "name": "vývar z kostí",
+        "normalized": "vývar",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "stroužek",
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "ks",
+        "name": "rajčata",
+        "normalized": "rajčata",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "zelená paprika",
+        "normalized": "zelená paprika",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "cibule",
+        "normalized": "cibule",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "feferonka",
+        "normalized": "feferonka",
+        "note": "kousek",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "bobkový list",
+        "normalized": "bobkový list",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "lžíce",
+        "name": "rajský protlak",
+        "normalized": "rajčatový protlak",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "lžíce",
+        "name": "sladká paprika",
+        "normalized": "paprika mletá",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sádlo",
+        "normalized": "sádlo",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "",
+        "scalable": false
+      }
+    ],
+    "steps": [
+      "Na sádle zpěňte nakrájenou cibuli s kostičkami slaniny, přidejte nakrájená rajčata, utřený česnek a bobkový list.",
+      "Jakmile česnek zavoní, zaprašte červenou paprikou, přidejte uvařené dršťky, promíchejte, podlijte trochou vývaru, dochuťte rajským protlakem, kouskem feferonky a solí a duste asi 10 minut, občas podlijte vývarem a promíchejte.",
+      "Přidejte na proužky nakrájenou zelenou papriku a duste, až paprika změkne."
+    ],
+    "notes": "Podáváme s tarhoňou nebo chlebem. Uvedená doba nezahrnuje předvaření drštěk.",
+    "diet": {
+      "changes": "Sádlo nahrazeno lžičkou oleje, slanina vynechána, cibule se dusí na vodě místo zpěnění na tuku, ostrá feferonka vynechána.",
+      "compliant": false,
       "ingredients": [
         {
           "amount": 500,
@@ -973,18 +1088,10 @@
           "scalable": true
         },
         {
-          "amount": 50,
-          "unit": "g",
-          "name": "slanina",
-          "normalized": "slanina",
-          "note": "",
-          "scalable": true
-        },
-        {
           "amount": 2,
           "unit": "dl",
           "name": "vývar z kostí",
-          "normalized": "vývar z kostí",
+          "normalized": "vývar",
           "note": "",
           "scalable": true
         },
@@ -1023,14 +1130,6 @@
         {
           "amount": 1,
           "unit": "ks",
-          "name": "feferonka",
-          "normalized": "feferonka",
-          "note": "kousek",
-          "scalable": true
-        },
-        {
-          "amount": 1,
-          "unit": "ks",
           "name": "bobkový list",
           "normalized": "bobkový list",
           "note": "",
@@ -1040,7 +1139,7 @@
           "amount": 2,
           "unit": "lžíce",
           "name": "rajský protlak",
-          "normalized": "rajský protlak",
+          "normalized": "rajčatový protlak",
           "note": "",
           "scalable": true
         },
@@ -1053,12 +1152,12 @@
           "scalable": true
         },
         {
-          "amount": null,
-          "unit": "",
-          "name": "sádlo",
-          "normalized": "sádlo",
-          "note": "",
-          "scalable": false
+          "amount": 1,
+          "unit": "lžička",
+          "name": "olej",
+          "normalized": "olej",
+          "note": "místo sádla",
+          "scalable": true
         },
         {
           "amount": null,
@@ -1070,196 +1169,206 @@
         }
       ],
       "steps": [
-        "Na sádle zpěňte nakrájenou cibuli s kostičkami slaniny, přidejte nakrájená rajčata, utřený česnek a bobkový list.",
-        "Jakmile česnek zavoní, zaprašte červenou paprikou, přidejte uvařené dršťky, promíchejte, podlijte trochou vývaru, dochuťte rajským protlakem, kouskem feferonky a solí a duste asi 10 minut, občas podlijte vývarem a promíchejte.",
+        "Na lžičce oleje a troše vody poduste nakrájenou cibuli doměkka, přidejte nakrájená rajčata, utřený česnek a bobkový list.",
+        "Zaprašte červenou paprikou, přidejte uvařené dršťky, promíchejte, podlijte trochou vývaru, dochuťte rajským protlakem a solí a duste asi 10 minut, občas podlijte vývarem a promíchejte.",
         "Přidejte na proužky nakrájenou zelenou papriku a duste, až paprika změkne."
-      ],
-      "notes": "Podáváme s tarhoňou nebo chlebem. Uvedená doba nezahrnuje předvaření drštěk.",
-      "diet": {
-        "changes": "Sádlo nahrazeno lžičkou oleje, slanina vynechána, cibule se dusí na vodě místo zpěnění na tuku, ostrá feferonka vynechána.",
-        "compliant": false,
-        "ingredients": [
-          {
-            "amount": 500,
-            "unit": "g",
-            "name": "dršťky",
-            "normalized": "dršťky",
-            "note": "předvařené",
-            "scalable": true
-          },
-          {
-            "amount": 2,
-            "unit": "dl",
-            "name": "vývar z kostí",
-            "normalized": "vývar z kostí",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 2,
-            "unit": "stroužek",
-            "name": "česnek",
-            "normalized": "česnek",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 2,
-            "unit": "ks",
-            "name": "rajčata",
-            "normalized": "rajčata",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "ks",
-            "name": "zelená paprika",
-            "normalized": "zelená paprika",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "ks",
-            "name": "cibule",
-            "normalized": "cibule",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "ks",
-            "name": "bobkový list",
-            "normalized": "bobkový list",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 2,
-            "unit": "lžíce",
-            "name": "rajský protlak",
-            "normalized": "rajský protlak",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "lžíce",
-            "name": "sladká paprika",
-            "normalized": "paprika mletá",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "lžička",
-            "name": "olej",
-            "normalized": "olej",
-            "note": "místo sádla",
-            "scalable": true
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "sůl",
-            "normalized": "sůl",
-            "note": "",
-            "scalable": false
-          }
-        ],
-        "steps": [
-          "Na lžičce oleje a troše vody poduste nakrájenou cibuli doměkka, přidejte nakrájená rajčata, utřený česnek a bobkový list.",
-          "Zaprašte červenou paprikou, přidejte uvařené dršťky, promíchejte, podlijte trochou vývaru, dochuťte rajským protlakem a solí a duste asi 10 minut, občas podlijte vývarem a promíchejte.",
-          "Přidejte na proužky nakrájenou zelenou papriku a duste, až paprika změkne."
-        ]
+      ]
+    }
+  },
+  {
+    "id": "zlata-klasika-tucet-kurecich-kridel-na-medu-podle-zdenka-pohlreicha",
+    "title": "Zlatá klasika: Tucet kuřecích křídel na medu podle Zdeňka Pohlreicha",
+    "source_url": "https://fresh.iprima.cz/zlata-klasika-tucet-kurecich-kridel-na-medu-podle-zdenka-pohlreicha-442130",
+    "image": "https://cdn.administrace.tv/2024/07/10/small_169/320a757af74f47620a491fa248f46380.jpg",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 2,
+    "time_minutes": 60,
+    "ingredients": [
+      {
+        "amount": 12.0,
+        "unit": "ks",
+        "name": "kuřecí křídla",
+        "normalized": "kuře",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pepř",
+        "normalized": "pepř",
+        "note": "čerstvě namletý",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "chléb",
+        "normalized": "chléb",
+        "note": "nebo bageta k podávání",
+        "scalable": false
+      },
+      {
+        "amount": 30.0,
+        "unit": "g",
+        "name": "zázvor",
+        "normalized": "zázvor",
+        "note": "čerstvý",
+        "scalable": true
+      },
+      {
+        "amount": "2–3",
+        "unit": "stroužky",
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": 1.0,
+        "unit": "ks",
+        "name": "chilli papričky",
+        "normalized": "chilli",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 30.0,
+        "unit": "g",
+        "name": "sójová omáčka",
+        "normalized": "sójová omáčka",
+        "note": "přirozeně fermentovaná",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pomerančová šťáva",
+        "normalized": "pomerančová šťáva",
+        "note": "z 1/2 pomeranče",
+        "scalable": false
+      },
+      {
+        "amount": 20.0,
+        "unit": "g",
+        "name": "med",
+        "normalized": "med",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 30.0,
+        "unit": "g",
+        "name": "rajčatový protlak",
+        "normalized": "rajčatový protlak",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "lžička",
+        "name": "třtinový cukr",
+        "normalized": "třtinový cukr",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 40.0,
+        "unit": "g",
+        "name": "sezamový olej",
+        "normalized": "olej sezamový",
+        "note": "",
+        "scalable": true
       }
-    },
-    {
-      "id": "zlata-klasika-tucet-kurecich-kridel-na-medu-podle-zdenka-pohlreicha",
-      "title": "Zlatá klasika: Tucet kuřecích křídel na medu podle Zdeňka Pohlreicha",
-      "source_url": "https://fresh.iprima.cz/zlata-klasika-tucet-kurecich-kridel-na-medu-podle-zdenka-pohlreicha-442130",
-      "image": "https://cdn.administrace.tv/2024/07/10/small_169/320a757af74f47620a491fa248f46380.jpg",
-      "courses": [
-        "Hlavní chod"
-      ],
-      "base_servings": 2,
-      "time_minutes": 60,
+    ],
+    "steps": [
+      "Křidýlka dvakrát nebo třikrát nařízněte v nejsilnější části. Osolte je a opepřete.",
+      "Připravte marinádu. Zázvor oloupejte a nastrouhejte najemno, česnek oloupejte a prolisujte, chilli papričku zbavte stopky a jádřince, přepulte a pokrájejte nadrobno.",
+      "V míse smíchejte všechny suroviny na marinádu, vložte do ní křídla, promíchejte, aby se obalila, a zakryjte potravinářskou fólií. Uložte alespoň na čtyři hodiny do lednice nebo ideálně přes noc.",
+      "Troubu předehřejte na 180 °C. Marinovaná křidýlka rozložte na pekáč a přelijte je zbylou marinádou. Pečte je v&nbsp;předehřáté troubě zhruba 45 minut, až maso zezlátne a změkne. Každých 10 minut je potřete marinádou a občas je obraťte.",
+      "Pokud zbyde nějaká marináda, slijte ji do rendlíku, svařte do konzistence sirupu a před podáváním ji přelijte přes křidýlka. Podávejte je s chlebem nebo bagetou."
+    ],
+    "notes": "",
+    "diet": {
+      "changes": "Křídla bez kůže místo tučných křídel s kůží, sezamový olej v marinádě vynechán, ostrá chilli paprička vynechána.",
+      "compliant": false,
       "ingredients": [
         {
-          "amount": 12.0,
+          "amount": 12,
           "unit": "ks",
           "name": "kuřecí křídla",
-          "normalized": "kureci kridla",
-          "note": "",
+          "normalized": "kuře",
+          "note": "bez kůže",
           "scalable": true
         },
         {
           "amount": null,
           "unit": "",
           "name": "sůl",
-          "normalized": "sul",
+          "normalized": "sůl",
           "note": "",
           "scalable": false
         },
         {
           "amount": null,
           "unit": "",
-          "name": "pepř, čerstvě namletý",
-          "normalized": "pepr, cerstve namlety",
+          "name": "pepř",
+          "normalized": "pepř",
           "note": "",
           "scalable": false
         },
         {
           "amount": null,
           "unit": "",
-          "name": "chléb, nebo bageta k podávání",
-          "normalized": "chleb, nebo bageta k podavani",
-          "note": "",
+          "name": "chléb",
+          "normalized": "chléb",
+          "note": "nebo bageta k podávání",
           "scalable": false
         },
         {
-          "amount": 30.0,
+          "amount": 30,
           "unit": "g",
           "name": "zázvor",
-          "normalized": "zazvor",
+          "normalized": "zázvor",
           "note": "čerstvý",
           "scalable": true
         },
         {
-          "amount": null,
-          "unit": "",
-          "name": "2–3 stroužky česnek",
-          "normalized": "2–3 strouzky cesnek",
+          "amount": "2–3",
+          "unit": "stroužky",
+          "name": "česnek",
+          "normalized": "česnek",
           "note": "",
           "scalable": false
         },
         {
-          "amount": 1.0,
-          "unit": "ks",
-          "name": "chilli papričky",
-          "normalized": "chilli papricky",
-          "note": "",
-          "scalable": true
-        },
-        {
-          "amount": 30.0,
+          "amount": 30,
           "unit": "g",
           "name": "sójová omáčka",
-          "normalized": "sojova omacka",
+          "normalized": "sójová omáčka",
           "note": "přirozeně fermentovaná",
           "scalable": true
         },
         {
           "amount": null,
           "unit": "",
-          "name": "z 1/2 pomeranče pomerančová šťáva",
-          "normalized": "z 1/2 pomerance pomerancova stava",
-          "note": "",
+          "name": "pomerančová šťáva",
+          "normalized": "pomerančová šťáva",
+          "note": "z 1/2 pomeranče",
           "scalable": false
         },
         {
-          "amount": 20.0,
+          "amount": 20,
           "unit": "g",
           "name": "med",
           "normalized": "med",
@@ -1267,314 +1376,403 @@
           "scalable": true
         },
         {
-          "amount": 30.0,
+          "amount": 30,
           "unit": "g",
           "name": "rajčatový protlak",
-          "normalized": "rajcatovy protlak",
+          "normalized": "rajčatový protlak",
           "note": "",
           "scalable": true
         },
         {
-          "amount": 1.0,
+          "amount": 1,
           "unit": "lžička",
           "name": "třtinový cukr",
-          "normalized": "trtinovy cukr",
-          "note": "",
-          "scalable": true
-        },
-        {
-          "amount": 40.0,
-          "unit": "g",
-          "name": "sezamový olej",
-          "normalized": "sezamovy olej",
+          "normalized": "třtinový cukr",
           "note": "",
           "scalable": true
         }
       ],
       "steps": [
-        "Křidýlka dvakrát nebo třikrát nařízněte v nejsilnější části. Osolte je a opepřete.",
-        "Připravte marinádu. Zázvor oloupejte a nastrouhejte najemno, česnek oloupejte a prolisujte, chilli papričku zbavte stopky a jádřince, přepulte a pokrájejte nadrobno.",
+        "Křídla bez kůže dvakrát nebo třikrát nařízněte v nejsilnější části, osolte a opepřete.",
+        "Připravte marinádu: zázvor oloupejte a nastrouhejte najemno, česnek oloupejte a prolisujte.",
         "V míse smíchejte všechny suroviny na marinádu, vložte do ní křídla, promíchejte, aby se obalila, a zakryjte potravinářskou fólií. Uložte alespoň na čtyři hodiny do lednice nebo ideálně přes noc.",
-        "Troubu předehřejte na 180 °C. Marinovaná křidýlka rozložte na pekáč a přelijte je zbylou marinádou. Pečte je v&nbsp;předehřáté troubě zhruba 45 minut, až maso zezlátne a změkne. Každých 10 minut je potřete marinádou a občas je obraťte.",
-        "Pokud zbyde nějaká marináda, slijte ji do rendlíku, svařte do konzistence sirupu a před podáváním ji přelijte přes křidýlka. Podávejte je s chlebem nebo bagetou."
-      ],
-      "notes": "",
-      "diet": {
-        "changes": "Křídla bez kůže místo tučných křídel s kůží, sezamový olej v marinádě vynechán, ostrá chilli paprička vynechána.",
-        "compliant": false,
-        "ingredients": [
-          {
-            "amount": 12,
-            "unit": "ks",
-            "name": "kuřecí křídla",
-            "normalized": "kuře",
-            "note": "bez kůže",
-            "scalable": true
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "sůl",
-            "normalized": "sůl",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "pepř",
-            "normalized": "pepř",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "chléb, nebo bageta k podávání",
-            "normalized": "chléb",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": 30,
-            "unit": "g",
-            "name": "zázvor",
-            "normalized": "zázvor",
-            "note": "čerstvý",
-            "scalable": true
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "2–3 stroužky česnek",
-            "normalized": "česnek",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": 30,
-            "unit": "g",
-            "name": "sójová omáčka",
-            "normalized": "sójová omáčka",
-            "note": "přirozeně fermentovaná",
-            "scalable": true
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "z 1/2 pomeranče pomerančová šťáva",
-            "normalized": "pomerančová šťáva",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": 20,
-            "unit": "g",
-            "name": "med",
-            "normalized": "med",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 30,
-            "unit": "g",
-            "name": "rajčatový protlak",
-            "normalized": "rajčatový protlak",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "lžička",
-            "name": "třtinový cukr",
-            "normalized": "třtinový cukr",
-            "note": "",
-            "scalable": true
-          }
-        ],
-        "steps": [
-          "Křídla bez kůže dvakrát nebo třikrát nařízněte v nejsilnější části, osolte a opepřete.",
-          "Připravte marinádu: zázvor oloupejte a nastrouhejte najemno, česnek oloupejte a prolisujte.",
-          "V míse smíchejte všechny suroviny na marinádu, vložte do ní křídla, promíchejte, aby se obalila, a zakryjte potravinářskou fólií. Uložte alespoň na čtyři hodiny do lednice nebo ideálně přes noc.",
-          "Troubu předehřejte na 180 °C. Marinovaná křídla rozložte na pekáč a přelijte je zbylou marinádou. Pečte v předehřáté troubě zhruba 45 minut, až maso zezlátne a změkne. Každých 10 minut je potřete marinádou a občas je obraťte.",
-          "Pokud zbyde marináda, slijte ji do rendlíku, svařte do konzistence sirupu a před podáváním ji přelijte přes křídla. Podávejte s chlebem nebo bagetou."
-        ]
+        "Troubu předehřejte na 180 °C. Marinovaná křídla rozložte na pekáč a přelijte je zbylou marinádou. Pečte v předehřáté troubě zhruba 45 minut, až maso zezlátne a změkne. Každých 10 minut je potřete marinádou a občas je obraťte.",
+        "Pokud zbyde marináda, slijte ji do rendlíku, svařte do konzistence sirupu a před podáváním ji přelijte přes křídla. Podávejte s chlebem nebo bagetou."
+      ]
+    }
+  },
+  {
+    "id": "zapecene-testoviny-se-sunkou-a-syrem-podle-zdenka-pohlreicha",
+    "title": "Zapečené těstoviny se šunkou a sýrem podle Zdeňka Pohlreicha",
+    "source_url": "https://fresh.iprima.cz/recepty/zapecene-testoviny-se-sunkou-a-syrem-podle-pohlreicha",
+    "image": "https://cdn.administrace.tv/2022/08/07/small_169/3a0f7a4d900011ad763c81f3f9a62b97.jpg",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 4,
+    "time_minutes": 60,
+    "ingredients": [
+      {
+        "amount": 500.0,
+        "unit": "g",
+        "name": "těstoviny",
+        "normalized": "těstoviny",
+        "note": "kolínka",
+        "scalable": true
+      },
+      {
+        "amount": 200.0,
+        "unit": "ml",
+        "name": "smetana ke šlehání",
+        "normalized": "smetana",
+        "note": "min. 31%",
+        "scalable": true
+      },
+      {
+        "amount": 200.0,
+        "unit": "g",
+        "name": "ementál",
+        "normalized": "ementál",
+        "note": "nebo gouda či jiný polotvrdý sýr",
+        "scalable": true
+      },
+      {
+        "amount": 4.0,
+        "unit": "plátky",
+        "name": "šunka",
+        "normalized": "šunka",
+        "note": "silné",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "hrst",
+        "name": "strouhanka",
+        "normalized": "strouhanka",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": 25.0,
+        "unit": "g",
+        "name": "strouhaný parmazán",
+        "normalized": "parmazán",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pepř",
+        "normalized": "pepř",
+        "note": "čerstvě namletý",
+        "scalable": false
       }
-    },
-    {
-      "id": "zapecene-testoviny-se-sunkou-a-syrem-podle-zdenka-pohlreicha",
-      "title": "Zapečené těstoviny se šunkou a sýrem podle Zdeňka Pohlreicha",
-      "source_url": "https://fresh.iprima.cz/recepty/zapecene-testoviny-se-sunkou-a-syrem-podle-pohlreicha",
-      "image": "https://cdn.administrace.tv/2022/08/07/small_169/3a0f7a4d900011ad763c81f3f9a62b97.jpg",
-      "courses": [
-        "Hlavní chod"
-      ],
-      "base_servings": 4,
-      "time_minutes": 60,
+    ],
+    "steps": [
+      "Těstoviny uvařte ve vroucí osolené vodě podle návodu na obalu akorát na skus, tzv. al dente. Slijte je a nechte okapat v cedníku.",
+      "Mezitím v pánvi na nízkém stupni pomalu přiveďte smetanu k varu. Ementál nastrouhejte a za stálého míchání ho rozpusťte v horké smetaně, vznikne hladká omáčka.",
+      "Sýrovou omáčku odstavte. Jarní cibulku a šunku nakrájejte nadrobno a vmíchejte do omáčky. Na závěr přidejte do omáčky okapané těstoviny. Osolte, opepřete a promíchejte.",
+      "Troubu předehřejte na 200 °C. Těstoviny vsypte do zapékací mísy, uhlaďte povrch a posypte je strouhankou a strouhaným parmazánem. Zapečte v troubě dozlatova asi 15–20 minut."
+    ],
+    "notes": "",
+    "diet": {
+      "changes": "Smetana ke šlehání nahrazena nízkotučným mlékem s lžící mouky, množství sýra sníženo a použit polotučný sýr, parmazán vynechán, šunka libová.",
+      "compliant": false,
       "ingredients": [
         {
-          "amount": 500.0,
+          "amount": 500,
           "unit": "g",
           "name": "těstoviny",
-          "normalized": "testoviny",
+          "normalized": "těstoviny",
           "note": "kolínka",
           "scalable": true
         },
         {
-          "amount": 200.0,
+          "amount": 200,
           "unit": "ml",
-          "name": "smetana ke šlehání",
-          "normalized": "smetana",
-          "note": "min. 31%",
+          "name": "nízkotučné mléko",
+          "normalized": "mléko",
+          "note": "místo smetany ke šlehání",
           "scalable": true
         },
         {
-          "amount": 200.0,
+          "amount": 1,
+          "unit": "lžíce",
+          "name": "hladká mouka",
+          "normalized": "mouka",
+          "note": "na zahuštění",
+          "scalable": true
+        },
+        {
+          "amount": 100,
           "unit": "g",
           "name": "ementál",
-          "normalized": "emental",
-          "note": "nebo gouda či jiný polotvrdý sýr",
+          "normalized": "ementál",
+          "note": "polotučný, nebo gouda či jiný polotvrdý sýr",
           "scalable": true
         },
         {
-          "amount": 4.0,
-          "unit": "",
-          "name": "silné plátky šunka",
-          "normalized": "silne platky sunka",
-          "note": "",
+          "amount": 4,
+          "unit": "plátky",
+          "name": "šunka",
+          "normalized": "šunka",
+          "note": "silné",
           "scalable": true
         },
         {
-          "amount": 1.0,
-          "unit": "",
-          "name": "hrst strouhanka",
-          "normalized": "hrst strouhanka",
+          "amount": null,
+          "unit": "hrst",
+          "name": "strouhanka",
+          "normalized": "strouhanka",
           "note": "",
-          "scalable": true
-        },
-        {
-          "amount": 25.0,
-          "unit": "g",
-          "name": "strouhaný parmazán",
-          "normalized": "strouhany parmazan",
-          "note": "",
-          "scalable": true
+          "scalable": false
         },
         {
           "amount": null,
           "unit": "",
           "name": "sůl",
-          "normalized": "sul",
+          "normalized": "sůl",
           "note": "",
           "scalable": false
         },
         {
           "amount": null,
           "unit": "",
-          "name": "čerstvě namletý pepř",
-          "normalized": "cerstve namlety pepr",
-          "note": "",
+          "name": "pepř",
+          "normalized": "pepř",
+          "note": "čerstvě namletý",
           "scalable": false
         }
       ],
       "steps": [
         "Těstoviny uvařte ve vroucí osolené vodě podle návodu na obalu akorát na skus, tzv. al dente. Slijte je a nechte okapat v cedníku.",
-        "Mezitím v pánvi na nízkém stupni pomalu přiveďte smetanu k varu. Ementál nastrouhejte a za stálého míchání ho rozpusťte v horké smetaně, vznikne hladká omáčka.",
+        "Mezitím v pánvi na nízkém stupni pomalu přiveďte mléko k varu, vmíchejte mouku a za stálého míchání rozpusťte nastrouhaný sýr, vznikne hladká omáčka.",
         "Sýrovou omáčku odstavte. Jarní cibulku a šunku nakrájejte nadrobno a vmíchejte do omáčky. Na závěr přidejte do omáčky okapané těstoviny. Osolte, opepřete a promíchejte.",
-        "Troubu předehřejte na 200 °C. Těstoviny vsypte do zapékací mísy, uhlaďte povrch a posypte je strouhankou a strouhaným parmazánem. Zapečte v troubě dozlatova asi 15–20 minut."
-      ],
-      "notes": "",
-      "diet": {
-        "changes": "Smetana ke šlehání nahrazena nízkotučným mlékem s lžící mouky, množství sýra sníženo a použit polotučný sýr, parmazán vynechán, šunka libová.",
-        "compliant": false,
-        "ingredients": [
-          {
-            "amount": 500,
-            "unit": "g",
-            "name": "těstoviny",
-            "normalized": "těstoviny",
-            "note": "kolínka",
-            "scalable": true
-          },
-          {
-            "amount": 200,
-            "unit": "ml",
-            "name": "nízkotučné mléko",
-            "normalized": "mléko",
-            "note": "místo smetany ke šlehání",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "lžíce",
-            "name": "hladká mouka",
-            "normalized": "mouka",
-            "note": "na zahuštění",
-            "scalable": true
-          },
-          {
-            "amount": 100,
-            "unit": "g",
-            "name": "ementál",
-            "normalized": "ementál",
-            "note": "polotučný, nebo gouda či jiný polotvrdý sýr",
-            "scalable": true
-          },
-          {
-            "amount": 4,
-            "unit": "",
-            "name": "silné plátky šunka",
-            "normalized": "šunka",
-            "note": "libová",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "",
-            "name": "hrst strouhanka",
-            "normalized": "strouhanka",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "sůl",
-            "normalized": "sůl",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "čerstvě namletý pepř",
-            "normalized": "pepř",
-            "note": "",
-            "scalable": false
-          }
-        ],
-        "steps": [
-          "Těstoviny uvařte ve vroucí osolené vodě podle návodu na obalu akorát na skus, tzv. al dente. Slijte je a nechte okapat v cedníku.",
-          "Mezitím v pánvi na nízkém stupni pomalu přiveďte mléko k varu, vmíchejte mouku a za stálého míchání rozpusťte nastrouhaný sýr, vznikne hladká omáčka.",
-          "Sýrovou omáčku odstavte. Jarní cibulku a šunku nakrájejte nadrobno a vmíchejte do omáčky. Na závěr přidejte do omáčky okapané těstoviny. Osolte, opepřete a promíchejte.",
-          "Troubu předehřejte na 200 °C. Těstoviny vsypte do zapékací mísy, uhlaďte povrch a posypte je strouhankou. Zapečte v troubě dozlatova asi 15–20 minut."
-        ]
+        "Troubu předehřejte na 200 °C. Těstoviny vsypte do zapékací mísy, uhlaďte povrch a posypte je strouhankou. Zapečte v troubě dozlatova asi 15–20 minut."
+      ]
+    }
+  },
+  {
+    "id": "klasicke-chilli-con-carne-s-mletym-hovezim-masem-a-cervenymi-fazolemi-podle-karoliny-kamberske",
+    "title": "Klasické chilli con carne s mletým hovězím masem a červenými fazolemi podle Karolíny Kamberské",
+    "source_url": "https://fresh.iprima.cz/recepty/chilli-con-carne-s-cokoladou-ryzi-a-kukuricnymi-tortillami",
+    "image": "https://cdn.administrace.tv/2022/08/06/small_169/ff9b0486a188798f5060966afb288e86.jpg",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 4,
+    "time_minutes": 60,
+    "ingredients": [
+      {
+        "amount": 3.0,
+        "unit": "lžíce",
+        "name": "olej",
+        "normalized": "olej",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "ks",
+        "name": "cibule",
+        "normalized": "cibule",
+        "note": "velká, nakrájená najemno",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "ks",
+        "name": "červená paprika",
+        "normalized": "červená paprika",
+        "note": "na tenké proužky",
+        "scalable": true
+      },
+      {
+        "amount": 2.0,
+        "unit": "stroužky",
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "jemně nasekaný",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "lžička",
+        "name": "chilli",
+        "normalized": "chilli",
+        "note": "mleté",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "lžička",
+        "name": "paprika mletá",
+        "normalized": "paprika mletá",
+        "note": "vrchovatá",
+        "scalable": true
+      },
+      {
+        "amount": 0.5,
+        "unit": "lžičky",
+        "name": "mletá skořice",
+        "normalized": "skořice mletá",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pepř",
+        "normalized": "pepř",
+        "note": "čerstvě namletý",
+        "scalable": false
+      },
+      {
+        "amount": 0.5,
+        "unit": "lžičky",
+        "name": "římský kmín",
+        "normalized": "římský kmín",
+        "note": "mletý",
+        "scalable": true
+      },
+      {
+        "amount": 500.0,
+        "unit": "g",
+        "name": "mleté hovězí maso",
+        "normalized": "mleté hovězí maso",
+        "note": "libové",
+        "scalable": true
+      },
+      {
+        "amount": 300.0,
+        "unit": "ml",
+        "name": "hovězí vývar",
+        "normalized": "vývar",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 400.0,
+        "unit": "g",
+        "name": "krájená rajčata",
+        "normalized": "rajčata",
+        "note": "loupaná, z konzervy",
+        "scalable": true
+      },
+      {
+        "amount": 0.5,
+        "unit": "lžičky",
+        "name": "majoránka",
+        "normalized": "majoránka",
+        "note": "sušená",
+        "scalable": true
+      },
+      {
+        "amount": 1.0,
+        "unit": "lžička",
+        "name": "třtinový cukr",
+        "normalized": "třtinový cukr",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2.0,
+        "unit": "lžíce",
+        "name": "rajský protlak",
+        "normalized": "rajčatový protlak",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": "2–3",
+        "unit": "kostičky",
+        "name": "hořká čokoláda",
+        "normalized": "hořká čokoláda",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": 400.0,
+        "unit": "g",
+        "name": "červené fazole",
+        "normalized": "červené fazole",
+        "note": "konzervované",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "dlouhozrnná rýže",
+        "normalized": "rýže",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "tortilla",
+        "normalized": "tortilla",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "zakysaná smetana",
+        "normalized": "zakysaná smetana",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "paprička jalapeňo",
+        "normalized": "paprička jalapeño",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "rajčatová salsa",
+        "normalized": "rajčatová salsa",
+        "note": "",
+        "scalable": false
       }
-    },
-    {
-      "id": "klasicke-chilli-con-carne-s-mletym-hovezim-masem-a-cervenymi-fazolemi-podle-karoliny-kamberske",
-      "title": "Klasické chilli con carne s mletým hovězím masem a červenými fazolemi podle Karolíny Kamberské",
-      "source_url": "https://fresh.iprima.cz/recepty/chilli-con-carne-s-cokoladou-ryzi-a-kukuricnymi-tortillami",
-      "image": "https://cdn.administrace.tv/2022/08/06/small_169/ff9b0486a188798f5060966afb288e86.jpg",
-      "courses": [
-        "Hlavní chod"
-      ],
-      "base_servings": 4,
-      "time_minutes": 60,
+    ],
+    "steps": [
+      "V kastrolu si rozehřejte olej a opečte na něm cibuli dosklovata. Pak přidejte papriku, česnek, chilli, čerstvou chilli papričku, sladkou papriku, skořici a římský kmín, opékejte tři minuty a pak přidejte mleté hovězí maso.",
+      "Opékejte dalších cca 8 minut za občasného zamíchání, všechno maso by na závěr mělo být opečené pěkně dohněda. Pak přidejte k masu propláchnuté fazole, několikrát promíchněte a vlijte do kastrolu k masovo-zeleninové směsi hovězí vývar.",
+      "Při použití čerstvých fazolí je nutné je namočit předem, a před tím, než je přidáte k masu, z nich pečlivě slijte vodu. Čerstvé fazole se vaří/dusí společně s masem. Je dobré použít dva druhy fazolí, jídlo je pak pestřejší – např. kombinace bílých a černých nebo červených fazolí. Pokud použijete fazole konzervované, přidávají se do jídla později, tzn. zhruba po 20 minutách, spolu s čokoládou, aby se nerozvařily.",
+      "Přidejte konzervovaná rajčata, majoránku a cukr, osolte a opepřete. Přidejte rajčatový protlak a promíchejte. Pak stáhněte plamen tak, aby směs jen probublávala, zakryjte pokličkou a nechte 20 minut vařit. Občas zkontrolujte – zamíchejte, a pokud se směs přichytává na dno kastrolu, můžete ji trochu podlít.",
+      "Přidejte čokoládu a fazole, promíchejte a nechte ještě 10 minut probublávat. Pak ochutnejte a případně dochuťte chilli, záleží na vás, jestli jídlo chcete ostřejší, nebo jemnější, můžete přidat i čerstvý koriandr. Dobře promíchejte, opět zakryjte poklicí a nechte 10 minut odpočívat.",
+      "Typickou přílohou pro chilli con carne je rýže a také kukuřičné tortilly. Připravte rýži, udělejte si salsu a nahřejte tortilly. Do několik misek dejte papričky jalapenos, vyrobenou salsu a zakysanou smetanu. Servírujete tak, že každý si na prostorný talíř sám servíruje chili con carne, rýži, tortillu, přídavné omáčky a smetanu."
+    ],
+    "notes": "",
+    "diet": {
+      "changes": "Olej snížen na lžičku a cibule se dusí na vodě místo opékání, hovězí nahrazeno libovým krůtím, ostré chilli, jalapeňo a čokoláda vynechány, fazole důkladně propláchnuty, zakysaná smetana nahrazena nízkotučným bílým jogurtem.",
+      "compliant": false,
       "ingredients": [
         {
-          "amount": 3.0,
-          "unit": "lžíce",
+          "amount": 1,
+          "unit": "lžička",
           "name": "olej",
           "normalized": "olej",
           "note": "",
@@ -1592,7 +1790,7 @@
           "amount": 1.0,
           "unit": "ks",
           "name": "červená paprika",
-          "normalized": "cervena paprika",
+          "normalized": "červená paprika",
           "note": "na tenké proužky",
           "scalable": true
         },
@@ -1600,31 +1798,23 @@
           "amount": 2.0,
           "unit": "stroužky",
           "name": "česnek",
-          "normalized": "cesnek",
+          "normalized": "česnek",
           "note": "jemně nasekaný",
           "scalable": true
         },
         {
           "amount": 1.0,
-          "unit": "",
-          "name": "zarovnaná lžička chilli",
-          "normalized": "zarovnana lzicka chilli",
-          "note": "mleté",
-          "scalable": true
-        },
-        {
-          "amount": 1.0,
-          "unit": "",
-          "name": "vrchovatá lžička mletá sladká paprika",
-          "normalized": "vrchovata lzicka mleta sladka paprika",
-          "note": "",
+          "unit": "lžička",
+          "name": "paprika mletá",
+          "normalized": "paprika mletá",
+          "note": "vrchovatá",
           "scalable": true
         },
         {
           "amount": 0.5,
           "unit": "lžičky",
           "name": "mletá skořice",
-          "normalized": "mleta skorice",
+          "normalized": "skořice mletá",
           "note": "",
           "scalable": true
         },
@@ -1632,31 +1822,31 @@
           "amount": null,
           "unit": "",
           "name": "sůl",
-          "normalized": "sul",
+          "normalized": "sůl",
           "note": "",
           "scalable": false
         },
         {
           "amount": null,
           "unit": "",
-          "name": "čerstvě namletý pepř",
-          "normalized": "cerstve namlety pepr",
-          "note": "",
+          "name": "pepř",
+          "normalized": "pepř",
+          "note": "čerstvě namletý",
           "scalable": false
         },
         {
           "amount": 0.5,
           "unit": "lžičky",
           "name": "římský kmín",
-          "normalized": "rimsky kmin",
+          "normalized": "římský kmín",
           "note": "mletý",
           "scalable": true
         },
         {
-          "amount": 500.0,
+          "amount": 500,
           "unit": "g",
-          "name": "mleté hovězí maso",
-          "normalized": "mlete hovezi maso",
+          "name": "mleté krůtí maso",
+          "normalized": "krůta",
           "note": "libové",
           "scalable": true
         },
@@ -1664,7 +1854,7 @@
           "amount": 300.0,
           "unit": "ml",
           "name": "hovězí vývar",
-          "normalized": "hovezi vyvar",
+          "normalized": "vývar",
           "note": "",
           "scalable": true
         },
@@ -1672,7 +1862,7 @@
           "amount": 400.0,
           "unit": "g",
           "name": "krájená rajčata",
-          "normalized": "krajena rajcata",
+          "normalized": "rajčata",
           "note": "loupaná, z konzervy",
           "scalable": true
         },
@@ -1680,7 +1870,7 @@
           "amount": 0.5,
           "unit": "lžičky",
           "name": "majoránka",
-          "normalized": "majoranka",
+          "normalized": "majoránka",
           "note": "sušená",
           "scalable": true
         },
@@ -1688,7 +1878,7 @@
           "amount": 1.0,
           "unit": "lžička",
           "name": "třtinový cukr",
-          "normalized": "trtinovy cukr",
+          "normalized": "třtinový cukr",
           "note": "",
           "scalable": true
         },
@@ -1696,23 +1886,15 @@
           "amount": 2.0,
           "unit": "lžíce",
           "name": "rajský protlak",
-          "normalized": "rajsky protlak",
+          "normalized": "rajčatový protlak",
           "note": "",
           "scalable": true
-        },
-        {
-          "amount": null,
-          "unit": "",
-          "name": "2–3 kostičky hořká čokoláda",
-          "normalized": "2–3 kosticky horka cokolada",
-          "note": "",
-          "scalable": false
         },
         {
           "amount": 400.0,
           "unit": "g",
           "name": "červené fazole",
-          "normalized": "cervene fazole",
+          "normalized": "červené fazole",
           "note": "konzervované",
           "scalable": true
         },
@@ -1720,7 +1902,7 @@
           "amount": null,
           "unit": "",
           "name": "dlouhozrnná rýže",
-          "normalized": "dlouhozrnna ryze",
+          "normalized": "rýže",
           "note": "",
           "scalable": false
         },
@@ -1735,228 +1917,92 @@
         {
           "amount": null,
           "unit": "",
-          "name": "zakysaná smetana",
-          "normalized": "zakysana smetana",
-          "note": "",
-          "scalable": false
-        },
-        {
-          "amount": null,
-          "unit": "",
-          "name": "paprička jalapeňo",
-          "normalized": "papricka jalapeno",
-          "note": "",
-          "scalable": false
-        },
-        {
-          "amount": null,
-          "unit": "",
           "name": "rajčatová salsa",
-          "normalized": "rajcatova salsa",
+          "normalized": "rajčatová salsa",
           "note": "",
+          "scalable": false
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "bílý jogurt nízkotučný",
+          "normalized": "jogurt",
+          "note": "místo zakysané smetany",
           "scalable": false
         }
       ],
       "steps": [
-        "V kastrolu si rozehřejte olej a opečte na něm cibuli dosklovata. Pak přidejte papriku, česnek, chilli, čerstvou chilli papričku, sladkou papriku, skořici a římský kmín, opékejte tři minuty a pak přidejte mleté hovězí maso.",
-        "Opékejte dalších cca 8 minut za občasného zamíchání, všechno maso by na závěr mělo být opečené pěkně dohněda. Pak přidejte k masu propláchnuté fazole, několikrát promíchněte a vlijte do kastrolu k masovo-zeleninové směsi hovězí vývar.",
-        "Při použití čerstvých fazolí je nutné je namočit předem, a před tím, než je přidáte k masu, z nich pečlivě slijte vodu. Čerstvé fazole se vaří/dusí společně s masem. Je dobré použít dva druhy fazolí, jídlo je pak pestřejší – např. kombinace bílých a černých nebo červených fazolí. Pokud použijete fazole konzervované, přidávají se do jídla později, tzn. zhruba po 20 minutách, spolu s čokoládou, aby se nerozvařily.",
-        "Přidejte konzervovaná rajčata, majoránku a cukr, osolte a opepřete. Přidejte rajčatový protlak a promíchejte. Pak stáhněte plamen tak, aby směs jen probublávala, zakryjte pokličkou a nechte 20 minut vařit. Občas zkontrolujte – zamíchejte, a pokud se směs přichytává na dno kastrolu, můžete ji trochu podlít.",
-        "Přidejte čokoládu a fazole, promíchejte a nechte ještě 10 minut probublávat. Pak ochutnejte a případně dochuťte chilli, záleží na vás, jestli jídlo chcete ostřejší, nebo jemnější, můžete přidat i čerstvý koriandr. Dobře promíchejte, opět zakryjte poklicí a nechte 10 minut odpočívat.",
-        "Typickou přílohou pro chilli con carne je rýže a také kukuřičné tortilly. Připravte rýži, udělejte si salsu a nahřejte tortilly. Do několik misek dejte papričky jalapenos, vyrobenou salsu a zakysanou smetanu. Servírujete tak, že každý si na prostorný talíř sám servíruje chili con carne, rýži, tortillu, přídavné omáčky a smetanu."
-      ],
-      "notes": "",
-      "diet": {
-        "changes": "Olej snížen na lžičku a cibule se dusí na vodě místo opékání, hovězí nahrazeno libovým krůtím, ostré chilli, jalapeňo a čokoláda vynechány, fazole důkladně propláchnuty, zakysaná smetana nahrazena nízkotučným bílým jogurtem.",
-        "compliant": false,
-        "ingredients": [
-          {
-            "amount": 1,
-            "unit": "lžička",
-            "name": "olej",
-            "normalized": "olej",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1.0,
-            "unit": "ks",
-            "name": "cibule",
-            "normalized": "cibule",
-            "note": "velká, nakrájená najemno",
-            "scalable": true
-          },
-          {
-            "amount": 1.0,
-            "unit": "ks",
-            "name": "červená paprika",
-            "normalized": "cervena paprika",
-            "note": "na tenké proužky",
-            "scalable": true
-          },
-          {
-            "amount": 2.0,
-            "unit": "stroužky",
-            "name": "česnek",
-            "normalized": "cesnek",
-            "note": "jemně nasekaný",
-            "scalable": true
-          },
-          {
-            "amount": 1.0,
-            "unit": "",
-            "name": "vrchovatá lžička mletá sladká paprika",
-            "normalized": "vrchovata lzicka mleta sladka paprika",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 0.5,
-            "unit": "lžičky",
-            "name": "mletá skořice",
-            "normalized": "mleta skorice",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "sůl",
-            "normalized": "sul",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "čerstvě namletý pepř",
-            "normalized": "cerstve namlety pepr",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": 0.5,
-            "unit": "lžičky",
-            "name": "římský kmín",
-            "normalized": "rimsky kmin",
-            "note": "mletý",
-            "scalable": true
-          },
-          {
-            "amount": 500,
-            "unit": "g",
-            "name": "mleté krůtí maso",
-            "normalized": "krůta",
-            "note": "libové",
-            "scalable": true
-          },
-          {
-            "amount": 300.0,
-            "unit": "ml",
-            "name": "hovězí vývar",
-            "normalized": "hovezi vyvar",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 400.0,
-            "unit": "g",
-            "name": "krájená rajčata",
-            "normalized": "krajena rajcata",
-            "note": "loupaná, z konzervy",
-            "scalable": true
-          },
-          {
-            "amount": 0.5,
-            "unit": "lžičky",
-            "name": "majoránka",
-            "normalized": "majoranka",
-            "note": "sušená",
-            "scalable": true
-          },
-          {
-            "amount": 1.0,
-            "unit": "lžička",
-            "name": "třtinový cukr",
-            "normalized": "trtinovy cukr",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 2.0,
-            "unit": "lžíce",
-            "name": "rajský protlak",
-            "normalized": "rajsky protlak",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 400.0,
-            "unit": "g",
-            "name": "červené fazole",
-            "normalized": "cervene fazole",
-            "note": "konzervované",
-            "scalable": true
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "dlouhozrnná rýže",
-            "normalized": "dlouhozrnna ryze",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "tortilla",
-            "normalized": "tortilla",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "rajčatová salsa",
-            "normalized": "rajcatova salsa",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "bílý jogurt nízkotučný",
-            "normalized": "jogurt",
-            "note": "místo zakysané smetany",
-            "scalable": false
-          }
-        ],
-        "steps": [
-          "V kastrolu na lžičce oleje a troše vody poduste cibuli dosklovata. Pak přidejte papriku, česnek, sladkou papriku, skořici a římský kmín, duste tři minuty a přidejte mleté krůtí maso.",
-          "Duste dalších cca 8 minut za občasného zamíchání, všechno maso by na závěr mělo být propečené. Pak přidejte k masu propláchnuté fazole, několikrát promíchněte a vlijte do kastrolu k masovo-zeleninové směsi hovězí vývar.",
-          "Při použití čerstvých fazolí je nutné je namočit předem, a před tím, než je přidáte k masu, z nich pečlivě slijte vodu. Čerstvé fazole se vaří a dusí společně s masem. Pokud použijete fazole konzervované, přidávají se do jídla později, tzn. zhruba po 20 minutách, aby se nerozvařily.",
-          "Přidejte konzervovaná rajčata, majoránku a cukr, osolte a opepřete. Přidejte rajčatový protlak a promíchejte. Pak stáhněte plamen tak, aby směs jen probublávala, zakryjte pokličkou a nechte 20 minut vařit. Občas zkontrolujte, zamíchejte, a pokud se směs přichytává na dno kastrolu, můžete ji trochu podlít.",
-          "Nechte ještě 10 minut probublávat, ochutnejte a případně dochuťte. Dobře promíchejte, opět zakryjte poklicí a nechte 10 minut odpočívat.",
-          "Typickou přílohou pro chilli con carne je rýže a také kukuřičné tortilly. Připravte rýži, udělejte si salsu a nahřejte tortilly. Do několika misek dejte vyrobenou salsu a bílý jogurt. Servírujete tak, že každý si na prostorný talíř sám servíruje chilli con carne, rýži, tortillu, přídavné omáčky a jogurt."
-        ]
+        "V kastrolu na lžičce oleje a troše vody poduste cibuli dosklovata. Pak přidejte papriku, česnek, sladkou papriku, skořici a římský kmín, duste tři minuty a přidejte mleté krůtí maso.",
+        "Duste dalších cca 8 minut za občasného zamíchání, všechno maso by na závěr mělo být propečené. Pak přidejte k masu propláchnuté fazole, několikrát promíchněte a vlijte do kastrolu k masovo-zeleninové směsi hovězí vývar.",
+        "Při použití čerstvých fazolí je nutné je namočit předem, a před tím, než je přidáte k masu, z nich pečlivě slijte vodu. Čerstvé fazole se vaří a dusí společně s masem. Pokud použijete fazole konzervované, přidávají se do jídla později, tzn. zhruba po 20 minutách, aby se nerozvařily.",
+        "Přidejte konzervovaná rajčata, majoránku a cukr, osolte a opepřete. Přidejte rajčatový protlak a promíchejte. Pak stáhněte plamen tak, aby směs jen probublávala, zakryjte pokličkou a nechte 20 minut vařit. Občas zkontrolujte, zamíchejte, a pokud se směs přichytává na dno kastrolu, můžete ji trochu podlít.",
+        "Nechte ještě 10 minut probublávat, ochutnejte a případně dochuťte. Dobře promíchejte, opět zakryjte poklicí a nechte 10 minut odpočívat.",
+        "Typickou přílohou pro chilli con carne je rýže a také kukuřičné tortilly. Připravte rýži, udělejte si salsu a nahřejte tortilly. Do několika misek dejte vyrobenou salsu a bílý jogurt. Servírujete tak, že každý si na prostorný talíř sám servíruje chilli con carne, rýži, tortillu, přídavné omáčky a jogurt."
+      ]
+    }
+  },
+  {
+    "id": "indicke-kari-madras",
+    "title": "Indické kari madras",
+    "source_url": "https://www.albert.cz/recepty/indicke-kari-madras/r/R00002612",
+    "image": "https://static.albert.cz/medias/sys_master/recipes/h0c/h5c/9230994047006.jpg",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "menu box indické curry madras",
+        "normalized": "kari madras",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "rýže basmati",
+        "normalized": "rýže",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "tempeh uzený",
+        "normalized": "tempeh",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "plž",
+        "name": "olej slunečnicový",
+        "normalized": "olej slunečnicový",
+        "note": "",
+        "scalable": true
       }
-    },
-    {
-      "id": "indicke-kari-madras",
-      "title": "Indické kari madras",
-      "source_url": "https://www.albert.cz/recepty/indicke-kari-madras/r/R00002612",
-      "image": "https://static.albert.cz/medias/sys_master/recipes/h0c/h5c/9230994047006.jpg",
-      "courses": [
-        "Hlavní chod"
-      ],
-      "base_servings": 4,
-      "time_minutes": 30,
+    ],
+    "steps": [
+      "Zeleninu z menu boxu očistěte, květák rozdělte na menší růžičky, papriku a rajčata nakrájejte na kousky, cibuli oloupejte a nakrájejte najemno.",
+      "Červenou chilli papričku zbavte semínek a nakrájejte najemno, z limety vymačkejte šťávu.",
+      "Rýži uvařte podle návodu na obalu.",
+      "Na velké pánvi rozehřejte slunečnicový olej a osmahněte tempeh (místo tempehu lze použít stejné množství cizrny v nálevu, nálev slijte). Přidejte cibuli a smažte 2 minuty na středně vysoké teplotě.",
+      "Přidejte zeleninu a podle chuti chilli papričku a za stálého míchání vařte na nejvyšším stupni 4 minuty.",
+      "Přidejte pastu kari madras a smažte 2 minuty na středně vysoké teplotě. Přilijte kokosové mléko, přiveďte k varu a pod poklicí vařte na nižší teplotě asi 10 minut. Dochuťte šťávou z limety a podávejte s rýží."
+    ],
+    "notes": "Zelenina, chilli paprička, limeta, pasta kari a kokosové mléko jsou součástí menu boxu. Tempeh lze nahradit stejným množstvím cizrny v nálevu.",
+    "diet": {
+      "changes": "Smažení nahrazeno dušením na lžičce oleje a vodě, kokosové mléko light místo plnotučného, ostrá chilli paprička vynechána.",
+      "compliant": false,
       "ingredients": [
         {
           "amount": 1,
           "unit": "ks",
           "name": "menu box indické curry madras",
-          "normalized": "menu box indické curry madras",
+          "normalized": "kari madras",
           "note": "",
           "scalable": true
         },
@@ -1964,7 +2010,7 @@
           "amount": 300,
           "unit": "g",
           "name": "rýže basmati",
-          "normalized": "rýže basmati",
+          "normalized": "rýže",
           "note": "",
           "scalable": true
         },
@@ -1977,8 +2023,8 @@
           "scalable": true
         },
         {
-          "amount": 2,
-          "unit": "plž",
+          "amount": 1,
+          "unit": "lžička",
           "name": "olej slunečnicový",
           "normalized": "olej slunečnicový",
           "note": "",
@@ -1987,69 +2033,148 @@
       ],
       "steps": [
         "Zeleninu z menu boxu očistěte, květák rozdělte na menší růžičky, papriku a rajčata nakrájejte na kousky, cibuli oloupejte a nakrájejte najemno.",
-        "Červenou chilli papričku zbavte semínek a nakrájejte najemno, z limety vymačkejte šťávu.",
-        "Rýži uvařte podle návodu na obalu.",
-        "Na velké pánvi rozehřejte slunečnicový olej a osmahněte tempeh (místo tempehu lze použít stejné množství cizrny v nálevu, nálev slijte). Přidejte cibuli a smažte 2 minuty na středně vysoké teplotě.",
-        "Přidejte zeleninu a podle chuti chilli papričku a za stálého míchání vařte na nejvyšším stupni 4 minuty.",
-        "Přidejte pastu kari madras a smažte 2 minuty na středně vysoké teplotě. Přilijte kokosové mléko, přiveďte k varu a pod poklicí vařte na nižší teplotě asi 10 minut. Dochuťte šťávou z limety a podávejte s rýží."
-      ],
-      "notes": "Zelenina, chilli paprička, limeta, pasta kari a kokosové mléko jsou součástí menu boxu. Tempeh lze nahradit stejným množstvím cizrny v nálevu.",
-      "diet": {
-        "changes": "Smažení nahrazeno dušením na lžičce oleje a vodě, kokosové mléko light místo plnotučného, ostrá chilli paprička vynechána.",
-        "compliant": false,
-        "ingredients": [
-          {
-            "amount": 1,
-            "unit": "ks",
-            "name": "menu box indické curry madras",
-            "normalized": "menu box indické curry madras",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 300,
-            "unit": "g",
-            "name": "rýže basmati",
-            "normalized": "rýže basmati",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 300,
-            "unit": "g",
-            "name": "tempeh uzený",
-            "normalized": "tempeh",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "lžička",
-            "name": "olej slunečnicový",
-            "normalized": "olej slunečnicový",
-            "note": "",
-            "scalable": true
-          }
-        ],
-        "steps": [
-          "Zeleninu z menu boxu očistěte, květák rozdělte na menší růžičky, papriku a rajčata nakrájejte na kousky, cibuli oloupejte a nakrájejte najemno.",
-          "Z limety vymačkejte šťávu, rýži uvařte podle návodu na obalu.",
-          "Na velké pánvi na lžičce oleje a troše vody poduste tempeh, přidejte cibuli a duste 2 minuty.",
-          "Přidejte zeleninu a za stálého míchání duste 4 minuty.",
-          "Přidejte pastu kari madras, promíchejte, přilijte light kokosové mléko, přiveďte k varu a pod poklicí vařte na nižší teplotě asi 10 minut. Dochuťte šťávou z limety a podávejte s rýží."
-        ]
+        "Z limety vymačkejte šťávu, rýži uvařte podle návodu na obalu.",
+        "Na velké pánvi na lžičce oleje a troše vody poduste tempeh, přidejte cibuli a duste 2 minuty.",
+        "Přidejte zeleninu a za stálého míchání duste 4 minuty.",
+        "Přidejte pastu kari madras, promíchejte, přilijte light kokosové mléko, přiveďte k varu a pod poklicí vařte na nižší teplotě asi 10 minut. Dochuťte šťávou z limety a podávejte s rýží."
+      ]
+    }
+  },
+  {
+    "id": "rychly-ramen-s-hlivou-a-vejcem",
+    "title": "Rychlý ramen s hlívou a vejcem",
+    "source_url": "https://www.albert.cz/recepty/rychly-ramen-s-hlivou-a-vejcem/r/a141534",
+    "image": "https://static.albert.cz/medias/sys_master/recipes/h99/h09/9230238220318.jpg",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 4,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "amount": 4,
+        "unit": "ks",
+        "name": "vejce",
+        "normalized": "vejce",
+        "note": "BIO",
+        "scalable": true
+      },
+      {
+        "amount": 3,
+        "unit": "plž",
+        "name": "olej slunečnicový",
+        "normalized": "olej slunečnicový",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "ks",
+        "name": "mrkev",
+        "normalized": "mrkev",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "strouž.",
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "hlíva ústřičná",
+        "normalized": "houby",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "cm",
+        "name": "zázvor",
+        "normalized": "zázvor",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "bujón zeleninový",
+        "normalized": "vývar",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 3,
+        "unit": "plž",
+        "name": "sójová omáčka",
+        "normalized": "sójová omáčka",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 800,
+        "unit": "ml",
+        "name": "voda",
+        "normalized": "voda",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 300,
+        "unit": "g",
+        "name": "nudle rýžové",
+        "normalized": "rýžové nudle",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "baby špenát",
+        "normalized": "špenát",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "člž",
+        "name": "sezam černý",
+        "normalized": "sezam",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "cibulka jarní",
+        "normalized": "jarní cibulka",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "člž",
+        "name": "chilli vločky",
+        "normalized": "chilli",
+        "note": "",
+        "scalable": true
       }
-    },
-    {
-      "id": "rychly-ramen-s-hlivou-a-vejcem",
-      "title": "Rychlý ramen s hlívou a vejcem",
-      "source_url": "https://www.albert.cz/recepty/rychly-ramen-s-hlivou-a-vejcem/r/a141534",
-      "image": "https://static.albert.cz/medias/sys_master/recipes/h99/h09/9230238220318.jpg",
-      "courses": [
-        "Hlavní chod"
-      ],
-      "base_servings": 4,
-      "time_minutes": 30,
+    ],
+    "steps": [
+      "V menším kastrůlku přiveďte vodu k varu, vložte vejce a vařte 5 minut. Ihned je zchlaďte v ledové vodě, nechte 3 minuty odstát, oloupejte a odložte stranou.",
+      "Během vaření vajec rozehřejte olej ve velkém hrnci, přidejte nahrubo strouhanou mrkev a na nudličky pokrájenou hlívu a restujte dozlatova. Vsypte rozmělněný česnek a najemno nastrouhaný zázvor a opékejte další 1 minutu.",
+      "Podlijte vodou, přilijte sójovou omáčku, vmíchejte rozdrobený bujón a na mírném ohni vařte 10 minut.",
+      "Vsypte nudle a vařte ještě 3 minuty. Odstavte a vmíchejte špenát, podle chuti dosolte.",
+      "Polévku rozdělte do misek, ozdobte rozpůleným vejcem, posypte kolečky jarní cibulky a sezamem, pro pikantnost lze přisypat chilli vločky."
+    ],
+    "notes": "",
+    "diet": {
+      "changes": "Restování na 3 lžících oleje nahrazeno dušením na lžičce oleje a vodě, ostré chilli vločky vynechány.",
+      "compliant": false,
       "ingredients": [
         {
           "amount": 4,
@@ -2060,8 +2185,8 @@
           "scalable": true
         },
         {
-          "amount": 3,
-          "unit": "plž",
+          "amount": 1,
+          "unit": "lžička",
           "name": "olej slunečnicový",
           "normalized": "olej slunečnicový",
           "note": "",
@@ -2103,7 +2228,7 @@
           "amount": 1,
           "unit": "ks",
           "name": "bujón zeleninový",
-          "normalized": "bujón",
+          "normalized": "vývar",
           "note": "",
           "scalable": true
         },
@@ -2127,7 +2252,7 @@
           "amount": 300,
           "unit": "g",
           "name": "nudle rýžové",
-          "normalized": "nudle rýžové",
+          "normalized": "rýžové nudle",
           "note": "",
           "scalable": true
         },
@@ -2151,177 +2276,181 @@
           "amount": 1,
           "unit": "ks",
           "name": "cibulka jarní",
-          "normalized": "cibulka jarní",
-          "note": "",
-          "scalable": true
-        },
-        {
-          "amount": 2,
-          "unit": "člž",
-          "name": "chilli vločky",
-          "normalized": "chilli vločky",
+          "normalized": "jarní cibulka",
           "note": "",
           "scalable": true
         }
       ],
       "steps": [
         "V menším kastrůlku přiveďte vodu k varu, vložte vejce a vařte 5 minut. Ihned je zchlaďte v ledové vodě, nechte 3 minuty odstát, oloupejte a odložte stranou.",
-        "Během vaření vajec rozehřejte olej ve velkém hrnci, přidejte nahrubo strouhanou mrkev a na nudličky pokrájenou hlívu a restujte dozlatova. Vsypte rozmělněný česnek a najemno nastrouhaný zázvor a opékejte další 1 minutu.",
+        "Ve velkém hrnci na lžičce oleje a troše vody poduste nahrubo strouhanou mrkev a na nudličky pokrájenou hlívu, vsypte rozmělněný česnek a najemno nastrouhaný zázvor a duste další 1 minutu.",
         "Podlijte vodou, přilijte sójovou omáčku, vmíchejte rozdrobený bujón a na mírném ohni vařte 10 minut.",
         "Vsypte nudle a vařte ještě 3 minuty. Odstavte a vmíchejte špenát, podle chuti dosolte.",
-        "Polévku rozdělte do misek, ozdobte rozpůleným vejcem, posypte kolečky jarní cibulky a sezamem, pro pikantnost lze přisypat chilli vločky."
-      ],
-      "notes": "",
-      "diet": {
-        "changes": "Restování na 3 lžících oleje nahrazeno dušením na lžičce oleje a vodě, ostré chilli vločky vynechány.",
-        "compliant": false,
-        "ingredients": [
-          {
-            "amount": 4,
-            "unit": "ks",
-            "name": "vejce",
-            "normalized": "vejce",
-            "note": "BIO",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "lžička",
-            "name": "olej slunečnicový",
-            "normalized": "olej slunečnicový",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 2,
-            "unit": "ks",
-            "name": "mrkev",
-            "normalized": "mrkev",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 2,
-            "unit": "strouž.",
-            "name": "česnek",
-            "normalized": "česnek",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 100,
-            "unit": "g",
-            "name": "hlíva ústřičná",
-            "normalized": "houby",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 2,
-            "unit": "cm",
-            "name": "zázvor",
-            "normalized": "zázvor",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "ks",
-            "name": "bujón zeleninový",
-            "normalized": "bujón",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 3,
-            "unit": "plž",
-            "name": "sójová omáčka",
-            "normalized": "sójová omáčka",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 800,
-            "unit": "ml",
-            "name": "voda",
-            "normalized": "voda",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 300,
-            "unit": "g",
-            "name": "nudle rýžové",
-            "normalized": "nudle rýžové",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 100,
-            "unit": "g",
-            "name": "baby špenát",
-            "normalized": "špenát",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 2,
-            "unit": "člž",
-            "name": "sezam černý",
-            "normalized": "sezam",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "ks",
-            "name": "cibulka jarní",
-            "normalized": "cibulka jarní",
-            "note": "",
-            "scalable": true
-          }
-        ],
-        "steps": [
-          "V menším kastrůlku přiveďte vodu k varu, vložte vejce a vařte 5 minut. Ihned je zchlaďte v ledové vodě, nechte 3 minuty odstát, oloupejte a odložte stranou.",
-          "Ve velkém hrnci na lžičce oleje a troše vody poduste nahrubo strouhanou mrkev a na nudličky pokrájenou hlívu, vsypte rozmělněný česnek a najemno nastrouhaný zázvor a duste další 1 minutu.",
-          "Podlijte vodou, přilijte sójovou omáčku, vmíchejte rozdrobený bujón a na mírném ohni vařte 10 minut.",
-          "Vsypte nudle a vařte ještě 3 minuty. Odstavte a vmíchejte špenát, podle chuti dosolte.",
-          "Polévku rozdělte do misek, ozdobte rozpůleným vejcem a posypte kolečky jarní cibulky a sezamem."
-        ]
+        "Polévku rozdělte do misek, ozdobte rozpůleným vejcem a posypte kolečky jarní cibulky a sezamem."
+      ]
+    }
+  },
+  {
+    "id": "spagety-s-morskymi-plody",
+    "title": "Špagety s mořskými plody",
+    "source_url": "https://fresh.iprima.cz/recepty/spagety-s-morskymi-plody",
+    "image": "https://cdn.administrace.tv/2022/08/07/small_169/0488eac42956bc6fac2ccb8f2dd34998.jpg",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 2,
+    "time_minutes": 30,
+    "ingredients": [
+      {
+        "amount": 200.0,
+        "unit": "g",
+        "name": "těstoviny",
+        "normalized": "těstoviny",
+        "note": "kvalitní,ideálně spaghetti",
+        "scalable": true
+      },
+      {
+        "amount": 30.0,
+        "unit": "g",
+        "name": "máslo",
+        "normalized": "máslo",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 500.0,
+        "unit": "g",
+        "name": "slávky",
+        "normalized": "slávky",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 300.0,
+        "unit": "g",
+        "name": "krevety",
+        "normalized": "krevety",
+        "note": "loupané, s ocáskem",
+        "scalable": true
+      },
+      {
+        "amount": 4.0,
+        "unit": "ks",
+        "name": "tygří krevety",
+        "normalized": "krevety",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 150.0,
+        "unit": "g",
+        "name": "sépie",
+        "normalized": "sepie",
+        "note": "krájené očistěné",
+        "scalable": true
+      },
+      {
+        "amount": 150.0,
+        "unit": "ml",
+        "name": "bílé víno",
+        "normalized": "bílé víno",
+        "note": "suché",
+        "scalable": true
+      },
+      {
+        "amount": 200.0,
+        "unit": "g",
+        "name": "cherry rajčata",
+        "normalized": "rajčata",
+        "note": "klidně v konzervě",
+        "scalable": true
+      },
+      {
+        "amount": 2.0,
+        "unit": "stroužky",
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "extra virgin olivový olej",
+        "normalized": "olivový olej",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "chilli",
+        "normalized": "chilli",
+        "note": "podle chuti",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "hrst",
+        "name": "petrželka",
+        "normalized": "petržel",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pepř",
+        "normalized": "pepř",
+        "note": "čerstvě namletý",
+        "scalable": false
       }
-    },
-    {
-      "id": "spagety-s-morskymi-plody",
-      "title": "Špagety s mořskými plody",
-      "source_url": "https://fresh.iprima.cz/recepty/spagety-s-morskymi-plody",
-      "image": "https://cdn.administrace.tv/2022/08/07/small_169/0488eac42956bc6fac2ccb8f2dd34998.jpg",
-      "courses": [
-        "Hlavní chod"
-      ],
-      "base_servings": 2,
-      "time_minutes": 30,
+    ],
+    "steps": [
+      "Slávky omyjte a očistěte. Ty, které jsou otevřené a po zaklepání se nezavřou, vyhoďte. Česnek oloupejte a plochou stranou nože rozmáčkněte.",
+      "Do velkého hrnce dejte vařit studenou vodu. Při vaření těstovin dodržujte 2 zásady – velké množství vody a soli. Pokud budete vařit pastu v malém množstvím vody, těstoviny se rozvaří. Zároveň je potřeba vodu osolit tak, aby byla slaná jako mořská voda (dejte tak 1 lžíci soli).",
+      "Těstoviny vložte do vroucí vody a vařte na skus. Pozor, vkládejte je do vody v době, kdy se z mořských plodů odpaří víno, aby vám to vše časově vyšlo. Zda jsou těstoviny al dente, poznáte tak, že mají uprostřed světlou čárku/tečku (podle druhu).",
+      "Takto uvařené těstoviny mají mnohem nižší glykemický index a jsou tak pro tělo mnohem lépe stravitelné než těstoviny rozvařené.",
+      "Velkou pánev rozehřejte na vyšším plameni nasucho a přidejte 30 g másla a 2 lžíce olivového oleje. Počkejte minutku a vhoďte mušle a česnek. Párkrát je prohoďte na pánvi a přidejte krevety.",
+      "Plamen držte stále na vyšší stupeň. Nakonec přidejte sépie, rajčata a případně chilli, pokud používáte. Restujte společně asi 3 minuty a přilijte víno.",
+      "Počkejte, až se odpaří alkohol a přidejte vařené těstoviny rovnou z hrnce, ve kterém se vařily i s trochou vody. Ta pomůže udělat lesklou a krémovou konzistenci.",
+      "Už jen chvíli provařte, prohoďte na pánvi a můžete stáhnout z ohně. Pár mušlí vyloupejte rovnou a vraťte do špaget, zbytek mušlí ponechte v celku na ozdobu.",
+      "Přimíchejte nasekanou petrželku, podle chuti osolte, opepřete a servírujte. Zde se sýr navrch nekoná, protože k mořským plodům se nehodí a neservíruje."
+    ],
+    "notes": "",
+    "diet": {
+      "changes": "Máslo nahrazeno lžičkou olivového oleje, mořské plody se dusí místo restování na másle, ostré chilli vynecháno.",
+      "compliant": false,
       "ingredients": [
         {
           "amount": 200.0,
           "unit": "g",
           "name": "těstoviny",
-          "normalized": "testoviny",
+          "normalized": "těstoviny",
           "note": "kvalitní,ideálně spaghetti",
           "scalable": true
         },
         {
-          "amount": 30.0,
-          "unit": "g",
-          "name": "máslo",
-          "normalized": "maslo",
-          "note": "",
+          "amount": 1,
+          "unit": "lžička",
+          "name": "olivový olej",
+          "normalized": "olivový olej",
+          "note": "místo másla",
           "scalable": true
         },
         {
           "amount": 500.0,
           "unit": "g",
           "name": "slávky",
-          "normalized": "slavky",
+          "normalized": "slávky",
           "note": "",
           "scalable": true
         },
@@ -2337,7 +2466,7 @@
           "amount": 4.0,
           "unit": "ks",
           "name": "tygří krevety",
-          "normalized": "tygri krevety",
+          "normalized": "krevety",
           "note": "",
           "scalable": true
         },
@@ -2353,7 +2482,7 @@
           "amount": 150.0,
           "unit": "ml",
           "name": "bílé víno",
-          "normalized": "bile vino",
+          "normalized": "bílé víno",
           "note": "suché",
           "scalable": true
         },
@@ -2361,7 +2490,7 @@
           "amount": 200.0,
           "unit": "g",
           "name": "cherry rajčata",
-          "normalized": "cherry rajcata",
+          "normalized": "rajčata",
           "note": "klidně v konzervě",
           "scalable": true
         },
@@ -2369,7 +2498,7 @@
           "amount": 2.0,
           "unit": "stroužky",
           "name": "česnek",
-          "normalized": "cesnek",
+          "normalized": "česnek",
           "note": "",
           "scalable": true
         },
@@ -2377,23 +2506,15 @@
           "amount": null,
           "unit": "",
           "name": "extra virgin olivový olej",
-          "normalized": "extra virgin olivovy olej",
+          "normalized": "olivový olej",
           "note": "",
           "scalable": false
         },
         {
           "amount": null,
-          "unit": "",
-          "name": "chilli, podle chuti",
-          "normalized": "chilli, podle chuti",
-          "note": "",
-          "scalable": false
-        },
-        {
-          "amount": null,
-          "unit": "",
-          "name": "hrst petrželka",
-          "normalized": "hrst petrzelka",
+          "unit": "hrst",
+          "name": "petrželka",
+          "normalized": "petržel",
           "note": "",
           "scalable": false
         },
@@ -2401,149 +2522,28 @@
           "amount": null,
           "unit": "",
           "name": "sůl",
-          "normalized": "sul",
+          "normalized": "sůl",
           "note": "",
           "scalable": false
         },
         {
           "amount": null,
           "unit": "",
-          "name": "čerstvě namletý pepř",
-          "normalized": "cerstve namlety pepr",
-          "note": "",
+          "name": "pepř",
+          "normalized": "pepř",
+          "note": "čerstvě namletý",
           "scalable": false
         }
       ],
       "steps": [
         "Slávky omyjte a očistěte. Ty, které jsou otevřené a po zaklepání se nezavřou, vyhoďte. Česnek oloupejte a plochou stranou nože rozmáčkněte.",
-        "Do velkého hrnce dejte vařit studenou vodu. Při vaření těstovin dodržujte 2 zásady – velké množství vody a soli. Pokud budete vařit pastu v malém množstvím vody, těstoviny se rozvaří. Zároveň je potřeba vodu osolit tak, aby byla slaná jako mořská voda (dejte tak 1 lžíci soli).",
-        "Těstoviny vložte do vroucí vody a vařte na skus. Pozor, vkládejte je do vody v době, kdy se z mořských plodů odpaří víno, aby vám to vše časově vyšlo. Zda jsou těstoviny al dente, poznáte tak, že mají uprostřed světlou čárku/tečku (podle druhu).",
-        "Takto uvařené těstoviny mají mnohem nižší glykemický index a jsou tak pro tělo mnohem lépe stravitelné než těstoviny rozvařené.",
-        "Velkou pánev rozehřejte na vyšším plameni nasucho a přidejte 30 g másla a 2 lžíce olivového oleje. Počkejte minutku a vhoďte mušle a česnek. Párkrát je prohoďte na pánvi a přidejte krevety.",
-        "Plamen držte stále na vyšší stupeň. Nakonec přidejte sépie, rajčata a případně chilli, pokud používáte. Restujte společně asi 3 minuty a přilijte víno.",
-        "Počkejte, až se odpaří alkohol a přidejte vařené těstoviny rovnou z hrnce, ve kterém se vařily i s trochou vody. Ta pomůže udělat lesklou a krémovou konzistenci.",
-        "Už jen chvíli provařte, prohoďte na pánvi a můžete stáhnout z ohně. Pár mušlí vyloupejte rovnou a vraťte do špaget, zbytek mušlí ponechte v celku na ozdobu.",
-        "Přimíchejte nasekanou petrželku, podle chuti osolte, opepřete a servírujte. Zde se sýr navrch nekoná, protože k mořským plodům se nehodí a neservíruje."
-      ],
-      "notes": "",
-      "diet": {
-        "changes": "Máslo nahrazeno lžičkou olivového oleje, mořské plody se dusí místo restování na másle, ostré chilli vynecháno.",
-        "compliant": false,
-        "ingredients": [
-          {
-            "amount": 200.0,
-            "unit": "g",
-            "name": "těstoviny",
-            "normalized": "testoviny",
-            "note": "kvalitní,ideálně spaghetti",
-            "scalable": true
-          },
-          {
-            "amount": 1,
-            "unit": "lžička",
-            "name": "olivový olej",
-            "normalized": "olivový olej",
-            "note": "místo másla",
-            "scalable": true
-          },
-          {
-            "amount": 500.0,
-            "unit": "g",
-            "name": "slávky",
-            "normalized": "slavky",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 300.0,
-            "unit": "g",
-            "name": "krevety",
-            "normalized": "krevety",
-            "note": "loupané, s ocáskem",
-            "scalable": true
-          },
-          {
-            "amount": 4.0,
-            "unit": "ks",
-            "name": "tygří krevety",
-            "normalized": "tygri krevety",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": 150.0,
-            "unit": "g",
-            "name": "sépie",
-            "normalized": "sepie",
-            "note": "krájené očistěné",
-            "scalable": true
-          },
-          {
-            "amount": 150.0,
-            "unit": "ml",
-            "name": "bílé víno",
-            "normalized": "bile vino",
-            "note": "suché",
-            "scalable": true
-          },
-          {
-            "amount": 200.0,
-            "unit": "g",
-            "name": "cherry rajčata",
-            "normalized": "cherry rajcata",
-            "note": "klidně v konzervě",
-            "scalable": true
-          },
-          {
-            "amount": 2.0,
-            "unit": "stroužky",
-            "name": "česnek",
-            "normalized": "cesnek",
-            "note": "",
-            "scalable": true
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "extra virgin olivový olej",
-            "normalized": "extra virgin olivovy olej",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "hrst petrželka",
-            "normalized": "hrst petrzelka",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "sůl",
-            "normalized": "sul",
-            "note": "",
-            "scalable": false
-          },
-          {
-            "amount": null,
-            "unit": "",
-            "name": "čerstvě namletý pepř",
-            "normalized": "cerstve namlety pepr",
-            "note": "",
-            "scalable": false
-          }
-        ],
-        "steps": [
-          "Slávky omyjte a očistěte. Ty, které jsou otevřené a po zaklepání se nezavřou, vyhoďte. Česnek oloupejte a plochou stranou nože rozmáčkněte.",
-          "Do velkého hrnce dejte vařit studenou vodu. Těstoviny vařte ve velkém množství osolené vody na skus.",
-          "Velkou pánev rozehřejte na vyšším plameni, přidejte lžičku olivového oleje, vhoďte mušle a česnek, párkrát je prohoďte na pánvi a přidejte krevety.",
-          "Plamen držte stále na vyšší stupeň. Nakonec přidejte sépie a rajčata, duste společně asi 3 minuty a přilijte víno.",
-          "Počkejte, až se odpaří alkohol, a přidejte vařené těstoviny rovnou z hrnce i s trochou vody, která pomůže udělat lesklou konzistenci.",
-          "Už jen chvíli provařte, prohoďte na pánvi a stáhněte z ohně. Pár mušlí vyloupejte rovnou a vraťte do špaget, zbytek mušlí ponechte v celku na ozdobu.",
-          "Přimíchejte nasekanou petrželku, podle chuti osolte, opepřete a servírujte."
-        ]
-      }
+        "Do velkého hrnce dejte vařit studenou vodu. Těstoviny vařte ve velkém množství osolené vody na skus.",
+        "Velkou pánev rozehřejte na vyšším plameni, přidejte lžičku olivového oleje, vhoďte mušle a česnek, párkrát je prohoďte na pánvi a přidejte krevety.",
+        "Plamen držte stále na vyšší stupeň. Nakonec přidejte sépie a rajčata, duste společně asi 3 minuty a přilijte víno.",
+        "Počkejte, až se odpaří alkohol, a přidejte vařené těstoviny rovnou z hrnce i s trochou vody, která pomůže udělat lesklou konzistenci.",
+        "Už jen chvíli provařte, prohoďte na pánvi a stáhněte z ohně. Pár mušlí vyloupejte rovnou a vraťte do špaget, zbytek mušlí ponechte v celku na ozdobu.",
+        "Přimíchejte nasekanou petrželku, podle chuti osolte, opepřete a servírujte."
+      ]
     }
+  }
 ]

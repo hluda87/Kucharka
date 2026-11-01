@@ -2545,5 +2545,209 @@
         "Přimíchejte nasekanou petrželku, podle chuti osolte, opepřete a servírujte."
       ]
     }
+  },
+  {
+    "id": "pecena-dyne-s-cockovym-salatem-a-balkanskym-syrem",
+    "title": "Pečená dýně s čočkovým salátem a balkánským sýrem",
+    "source_url": "",
+    "image": "",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 2,
+    "time_minutes": 40,
+    "ingredients": [
+      {
+        "amount": 500,
+        "unit": "g",
+        "name": "dýně",
+        "normalized": "dýně",
+        "note": "čistá dužina bez slupky a semínek",
+        "scalable": true
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "černá čočka Beluga",
+        "normalized": "čočka",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 100,
+        "unit": "g",
+        "name": "balkánský sýr",
+        "normalized": "balkánský sýr",
+        "note": "případně feta",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "červená cibule",
+        "normalized": "cibule",
+        "note": "větší",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "lžíce",
+        "name": "olivový olej",
+        "normalized": "olivový olej",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sušený tymián",
+        "normalized": "tymián",
+        "note": "nebo rozmarýn",
+        "scalable": false
+      },
+      {
+        "amount": 2,
+        "unit": "lžíce",
+        "name": "extra panenský olivový olej",
+        "normalized": "olivový olej",
+        "note": "na dresink",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "lžíce",
+        "name": "balzamikový ocet",
+        "normalized": "balzamikový ocet",
+        "note": "na dresink",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "lžička",
+        "name": "dijonská hořčice",
+        "normalized": "hořčice",
+        "note": "na dresink",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "sůl",
+        "normalized": "sůl",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pepř",
+        "normalized": "pepř",
+        "note": "čerstvě mletý",
+        "scalable": false
+      }
+    ],
+    "steps": [
+      "Troubu předehřejte na 200 °C. Dýni rozkrojte, vydlabejte vlákna se semínky, oloupejte tvrdou slupku a dužinu nakrájejte na kostky velké zhruba 2–3 cm.",
+      "Kostky dýně rozložte na plech s pečicím papírem. Červenou cibuli nakrájejte na klínky a přidejte k dýni. Vše pokapejte olivovým olejem, posypte tymiánem, lehce osolte a opepřete. Pečte přibližně 20–25 minut, dokud dýně nezměkne a nezačne na okrajích zlátnout.",
+      "Během pečení uvařte čočku Beluga v osolené vodě doměkka (asi 15–20 minut) a sceďte. Nemusí se předem namáčet a dobře drží tvar.",
+      "Zálivka: v misce metličkou prošlehejte olivový olej, balzamikový ocet, dijonskou hořčici, špetku soli a čerstvě mletý pepř.",
+      "Ve velké míse smíchejte uvařenou teplou čočku s upečenou dýní a cibulí a lehce promíchejte s připraveným dresinkem.",
+      "Rozdělte na talíře a navrch štědře nadrobte balkánský sýr."
+    ],
+    "notes": "TIP: Pro křupavý element můžete salát před podáváním posypat opraženými vlašskými ořechy nebo slunečnicovými semínky. Recept přišel e-mailem (text v těle zprávy).",
+    "diet": {
+      "compliant": false,
+      "changes": "Méně oleje (na pečení jen 2 lžičky, do dresinku 1 lžíce), tučný balkánský sýr nahrazen nízkotučným čerstvým sýrem, černá čočka Beluga vyměněna za lépe stravitelnou červenou čočku, bez černého pepře a dijonské hořčice.",
+      "ingredients": [
+        {
+          "amount": 500,
+          "unit": "g",
+          "name": "dýně",
+          "normalized": "dýně",
+          "note": "čistá dužina bez slupky a semínek",
+          "scalable": true
+        },
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "červená čočka",
+          "normalized": "čočka",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 100,
+          "unit": "g",
+          "name": "nízkotučný čerstvý sýr",
+          "normalized": "čerstvý sýr",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "ks",
+          "name": "červená cibule",
+          "normalized": "cibule",
+          "note": "větší",
+          "scalable": true
+        },
+        {
+          "amount": 2,
+          "unit": "lžičky",
+          "name": "olivový olej",
+          "normalized": "olivový olej",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "sušený tymián",
+          "normalized": "tymián",
+          "note": "nebo rozmarýn",
+          "scalable": false
+        },
+        {
+          "amount": 1,
+          "unit": "lžíce",
+          "name": "extra panenský olivový olej",
+          "normalized": "olivový olej",
+          "note": "na dresink",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžíce",
+          "name": "balzamikový ocet",
+          "normalized": "balzamikový ocet",
+          "note": "na dresink",
+          "scalable": true
+        },
+        {
+          "amount": 1,
+          "unit": "lžička",
+          "name": "jemná hořčice",
+          "normalized": "hořčice",
+          "note": "na dresink",
+          "scalable": true
+        },
+        {
+          "amount": null,
+          "unit": "",
+          "name": "sůl",
+          "normalized": "sůl",
+          "note": "",
+          "scalable": false
+        }
+      ],
+      "steps": [
+        "Troubu předehřejte na 200 °C. Dýni rozkrojte, vydlabejte vlákna se semínky, oloupejte slupku a dužinu nakrájejte na kostky velké zhruba 2–3 cm.",
+        "Kostky dýně rozložte na plech s pečicím papírem, přidejte cibuli nakrájenou na klínky, pokapejte 2 lžičkami olivového oleje, posypte tymiánem a lehce osolte. Pečte přibližně 20–25 minut doměkka.",
+        "Červenou čočku uvařte v osolené vodě doměkka (asi 10–12 minut) a sceďte.",
+        "Zálivka: prošlehejte 1 lžíci olivového oleje, balzamikový ocet, jemnou hořčici a špetku soli.",
+        "Teplou čočku smíchejte s upečenou dýní a cibulí a promíchejte s dresinkem.",
+        "Rozdělte na talíře a navrch nadrobte nízkotučný čerstvý sýr."
+      ]
+    }
   }
 ]

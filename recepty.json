@@ -752,7 +752,7 @@
       },
       {
         "amount": 2,
-        "unit": "plž",
+        "unit": "lžíce",
         "name": "olej sezamový",
         "normalized": "olej sezamový",
         "note": "",
@@ -776,7 +776,7 @@
       },
       {
         "amount": 4,
-        "unit": "strouž.",
+        "unit": "stroužky",
         "name": "česnek",
         "normalized": "česnek",
         "note": "",
@@ -792,7 +792,7 @@
       },
       {
         "amount": 2,
-        "unit": "plž",
+        "unit": "lžíce",
         "name": "rybí omáčka",
         "normalized": "rybí omáčka",
         "note": "",
@@ -800,8 +800,8 @@
       },
       {
         "amount": 2,
-        "unit": "plž",
-        "name": "sojová omáčka",
+        "unit": "lžíce",
+        "name": "sójová omáčka",
         "normalized": "sójová omáčka",
         "note": "",
         "scalable": true
@@ -891,7 +891,7 @@
         },
         {
           "amount": 4,
-          "unit": "strouž.",
+          "unit": "stroužky",
           "name": "česnek",
           "normalized": "česnek",
           "note": "",
@@ -907,7 +907,7 @@
         },
         {
           "amount": 1,
-          "unit": "plž",
+          "unit": "lžíce",
           "name": "rybí omáčka",
           "normalized": "rybí omáčka",
           "note": "",
@@ -915,8 +915,8 @@
         },
         {
           "amount": 1,
-          "unit": "plž",
-          "name": "sojová omáčka",
+          "unit": "lžíce",
+          "name": "sójová omáčka",
           "normalized": "sójová omáčka",
           "note": "",
           "scalable": true
@@ -1285,7 +1285,7 @@
       {
         "amount": 40.0,
         "unit": "g",
-        "name": "sezamový olej",
+        "name": "olej sezamový",
         "normalized": "olej sezamový",
         "note": "",
         "scalable": true
@@ -1743,7 +1743,7 @@
       {
         "amount": null,
         "unit": "",
-        "name": "paprička jalapeňo",
+        "name": "paprička jalapeño",
         "normalized": "paprička jalapeño",
         "note": "",
         "scalable": false
@@ -1978,7 +1978,7 @@
       },
       {
         "amount": 2,
-        "unit": "plž",
+        "unit": "lžíce",
         "name": "olej slunečnicový",
         "normalized": "olej slunečnicový",
         "note": "",
@@ -2061,7 +2061,7 @@
       },
       {
         "amount": 3,
-        "unit": "plž",
+        "unit": "lžíce",
         "name": "olej slunečnicový",
         "normalized": "olej slunečnicový",
         "note": "",
@@ -2077,7 +2077,7 @@
       },
       {
         "amount": 2,
-        "unit": "strouž.",
+        "unit": "stroužky",
         "name": "česnek",
         "normalized": "česnek",
         "note": "",
@@ -2109,7 +2109,7 @@
       },
       {
         "amount": 3,
-        "unit": "plž",
+        "unit": "lžíce",
         "name": "sójová omáčka",
         "normalized": "sójová omáčka",
         "note": "",
@@ -2141,7 +2141,7 @@
       },
       {
         "amount": 2,
-        "unit": "člž",
+        "unit": "lžička",
         "name": "sezam černý",
         "normalized": "sezam",
         "note": "",
@@ -2157,7 +2157,7 @@
       },
       {
         "amount": 2,
-        "unit": "člž",
+        "unit": "lžička",
         "name": "chilli vločky",
         "normalized": "chilli",
         "note": "",
@@ -2202,7 +2202,7 @@
         },
         {
           "amount": 2,
-          "unit": "strouž.",
+          "unit": "stroužky",
           "name": "česnek",
           "normalized": "česnek",
           "note": "",
@@ -2234,7 +2234,7 @@
         },
         {
           "amount": 3,
-          "unit": "plž",
+          "unit": "lžíce",
           "name": "sójová omáčka",
           "normalized": "sójová omáčka",
           "note": "",
@@ -2266,7 +2266,7 @@
         },
         {
           "amount": 2,
-          "unit": "člž",
+          "unit": "lžička",
           "name": "sezam černý",
           "normalized": "sezam",
           "note": "",
@@ -2344,7 +2344,7 @@
       {
         "amount": 150.0,
         "unit": "g",
-        "name": "sépie",
+        "name": "sepie",
         "normalized": "sepie",
         "note": "krájené očistěné",
         "scalable": true
@@ -2473,7 +2473,7 @@
         {
           "amount": 150.0,
           "unit": "g",
-          "name": "sépie",
+          "name": "sepie",
           "normalized": "sepie",
           "note": "krájené očistěné",
           "scalable": true

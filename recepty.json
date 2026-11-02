@@ -2749,5 +2749,122 @@
         "Rozdělte na talíře a navrch nadrobte nízkotučný čerstvý sýr."
       ]
     }
+  },
+  {
+    "id": "slavky-a-la-mariniere-na-bilem-vine",
+    "title": "Slávky a la Mariniere na bílém víně",
+    "source_url": "https://kitchenette.cz/clanek/2-slavky-a-la-mariniere-na-bilem-vine",
+    "image": "",
+    "courses": [
+      "Hlavní chod"
+    ],
+    "base_servings": 2,
+    "time_minutes": 15,
+    "ingredients": [
+      {
+        "amount": 1.3,
+        "unit": "kg",
+        "name": "slávky",
+        "normalized": "slávky",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "lžíce",
+        "name": "olivový olej",
+        "normalized": "olivový olej",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "lžíce",
+        "name": "máslo",
+        "normalized": "máslo",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 4,
+        "unit": "ks",
+        "name": "šalotka",
+        "normalized": "šalotka",
+        "note": "nakrájená najemno",
+        "scalable": true
+      },
+      {
+        "amount": 4,
+        "unit": "stroužky",
+        "name": "česnek",
+        "normalized": "česnek",
+        "note": "na tenké plátky",
+        "scalable": true
+      },
+      {
+        "amount": 2,
+        "unit": "snítky",
+        "name": "tymián",
+        "normalized": "tymián",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 1,
+        "unit": "ks",
+        "name": "bobkový list",
+        "normalized": "bobkový list",
+        "note": "",
+        "scalable": true
+      },
+      {
+        "amount": 4,
+        "unit": "ks",
+        "name": "švestková rajčátka",
+        "normalized": "švestková rajčátka",
+        "note": "rozpůlená",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "petržel velkolistá",
+        "normalized": "petržel velkolistá",
+        "note": "velká hrst, nasekaná",
+        "scalable": false
+      },
+      {
+        "amount": 3,
+        "unit": "dl",
+        "name": "bílé víno",
+        "normalized": "bílé víno",
+        "note": "kvalitní",
+        "scalable": true
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "mořská sůl",
+        "normalized": "mořská sůl",
+        "note": "",
+        "scalable": false
+      },
+      {
+        "amount": null,
+        "unit": "",
+        "name": "pepř",
+        "normalized": "pepř",
+        "note": "",
+        "scalable": false
+      }
+    ],
+    "steps": [
+      "Slávky očistěte a namočte asi na 15 minut.",
+      "Ve větším hrnci na oleji orestujte šalotku do sklovata, přidejte česnek, rozpůlená rajčátka, tymián a bobkový list; po asi 1 minutě zalijte vínem a vařte, dokud se nezredukuje na polovinu; osolte a opepřete.",
+      "Slávky přeceďte a krátce propláchněte.",
+      "Přidejte je do hrnce, na maximu přiklopte a vařte zprudka asi 5 minut, dokud se neotevřou; přidejte máslo a petržel, promíchejte a podávejte, ideálně s bagetou.",
+      "Slávky, které se neotevřou, se nejedí."
+    ],
+    "notes": "Čerstvé mušle mají být zavřené a na dotek reagovat zavřením. Recept doplněn ručním přepisem ze stránky Kitchenette (stránka nemá strukturovaná data pro automatický import)."
   }
 ]
